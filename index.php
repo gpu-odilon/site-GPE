@@ -10,7 +10,7 @@
         <title>GROUPE EXTERNALISATION</title>
     </head>
     <body>
-        <!--Site header-->
+        <!--Site header--> 
         <header>
             <div class="hero-home-bg">
                 <div class="header-wrapper" id="myHeader">
