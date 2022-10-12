@@ -198,6 +198,7 @@ html {
   max-width: 1224px;
   padding: 0 10px;
   margin: 0 auto;
+  position: initial;
 }
 
 p {
@@ -291,10 +292,9 @@ header {
 }
 
 .hero-home-bg {
-  /*background-image: url('../images/Hero-home-background-image.png');*/
-  background-image: url('../images/banner2.webp');
+  background-image: url('../images/Hero-home-background-image.png');
   height: 100%;
-  background-position: inherit;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -480,7 +480,7 @@ select {
   }
 
   .mobile-close-btn a {
-    color: #f7d30b !important;
+    color: red !important;
   }
 
   .mobile-close-btn a:hover {
@@ -513,6 +513,11 @@ select {
     width: 100%;
   }
 
+#myBtn{
+  background: white;
+    color: #f8d700;
+    font-size: 15px;
+}
   .menu-navigation.responsive li {
     float: none;
     display: block;
@@ -545,7 +550,7 @@ select {
 }
 
 .hero-title {
-  color: #f7d30b;
+  color: #fff;
   position: relative;
 }
 
@@ -571,7 +576,26 @@ select {
 
 @media screen and (max-width: 769px) {
   .hero-title p {
-    font-size: 1em;
+    font-size: 14px;
+  }
+  .hero-title h1 {
+    font-size: 20px;
+  }
+  h3.slogan{
+    font-size: 30px!important;
+  }
+  h2{
+    font-size: 30px!important;
+  }
+  h3{
+    font-size: 20px;
+  }
+  .competance-container {
+    -ms-transform: initial!important;
+    transform: initial!important;
+  }
+  .wrappermobile{
+    padding: 30px 10px!important;
   }
 }
 
@@ -786,8 +810,8 @@ button.service-carousel-next {
   align-items: flex-end;
 }*/
 .divider-home {
-  background-image: url('../images/Home-bakcground-2.png');
-  height: 110%;
+  background-image: url('../images/banner2.webp');
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -797,7 +821,7 @@ button.service-carousel-next {
 
 .bk-comp:before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.7);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -808,10 +832,10 @@ button.service-carousel-next {
 }
 
 .competance-container {
-  position: absolute;
-  top: 37%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+/*  position: absolute;
+  top: 37%;*/
+  -ms-transform: translateY(100%);
+  transform: translateY(100%);
 }
 
 .row-competance {
@@ -1163,6 +1187,10 @@ hr {
   margin: auto;
   padding: 20px;
 }
+.content-mobile2{
+   max-width: 100%;
+   margin: 80px auto;
+}
 
 .contact-content-2 input[type=submit] {
   display: block;
@@ -1259,6 +1287,15 @@ a.btn-secondary:hover {
     margin-top: 10px;
     margin-bottom: 10px;
   }
+  body, html {
+    height: 100%;
+    overflow-x: clip;
+}
+}
+
+
+@media screen and (max-width:769px){
+
 }
 
 /*Section Centre de relation client*/
@@ -1867,3 +1904,147 @@ form p {
 .sub-center {
   float: left;
 }
+
+/* The Modal (background) */
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 0; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content-mobile {
+  background-color: #310681;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 100%;
+  height: 100%;
+}
+
+/* The Close Button */
+.closed1 {
+  color: #f8d700;
+  float: right;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.closed1:hover,
+.closed1:focus {
+  color: #f8d700;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.dropbtngpe {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdowng {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-contentgpe {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-contentgpe a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-contentgpe a:hover {background-color: #ddd;}
+
+.dropdowng:hover .dropdown-contentgpe {display: block;}
+
+.dropdowng:hover .dropbtngpe {background-color: #3e8e41;}
+.menu-navigation2{
+  display: inline-grid;
+}
+
+
+.accordion {
+  background-color: #f8d700;
+  color: #white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  margin-bottom: 15px;
+  list-style-type: none;
+  border-radius: 20px;
+}
+.accordion1 {
+  background-color: #f8d700;
+  color: #white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  margin-bottom: 15px;
+  list-style-type: none;
+  border-radius: 20px;
+}
+
+
+
+.active, .accordion:hover {
+  background-color: #f8d700; 
+}
+
+.panel {
+  padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    margin-top: -15px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    list-style-type: none;
+}
+.panel ul li{
+  list-style-type: none;
+  line-height: 40px;
+}
+
+.click-mob{
+  color: white;
+  text-transform: uppercase;
+}
+.accordion li a{
+  color: white;
+}
+.accordion1 li a{
+  color: white;
+}
+
+
