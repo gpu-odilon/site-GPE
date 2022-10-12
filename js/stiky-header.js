@@ -1,8 +1,4 @@
 
-
-
-
-
 //*   start sticker header top
 window.onscroll = function() {myFunction()};
 

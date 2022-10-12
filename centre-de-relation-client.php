@@ -11,16 +11,70 @@
 </head>
 <body>
     <!--Site header-->
-    <header>
-        <div class="hero-crc-bg">
-            <div class="header-wrapper">
-                <a href="index.php">
-                   <img class="logo" src="images/logo.png" alt="GROUPE EXTERNALISATION"/> 
-                </a>
-                <span class="mobile-btn"><a href="javascript:void(0);" class="icon" onclick="toggleNavFunction()">&#9776;</a></span>    
-                <nav class="menu-navigation row" id="menuNavigation">
-                        <li> <a href="index.php">ACCUEIL</a></li>
-                        <li> <a class="active" id="activeNav" href="nos-services.php">SERVICE</a></li>
+      <header>
+            <div class="hero-service-bg">
+                <div class="header-wrapper" id="myHeader">
+                    <a href="index.php">
+                    <img class="logo"  id="myLogo" src="images/logo.png" alt="GROUPE EXTERNALISATION"/>
+                    </a>
+                    <span class="mobile-btn"><button id="myBtn">&#9776;</button></span> 
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal2">
+                        <!-- Modal content -->
+                        <div class="modal-content-mobile">
+                            <span class="closed1">&times;</span>
+                            <div class="content-mobile2">
+                                <button class="accordion1">
+                                    <li> <a href="index.php">ACCUEIL</a></li>
+                                </button>
+                                <button class="accordion click-mob">SERVICES</button>
+                                <div class="panel">
+                                    <ul>
+                                        <li>
+                                            <a href="centre-de-relation-client.php">CENTRE DE RELATION CLIENT</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">ASSISTANAT</a>
+                                        </li>
+                                        <li>
+                                            <a href="comptabilite.php">COMPTABILITÉ</a>
+                                        </li>
+                                        <li>
+                                            <a href="bpo-processus-metiers.php">BPO & PROCESSUS DE METIER</a>
+                                        </li>
+                                        <li>
+                                            <a href="webmarketing.php">WEBMARKETING</a>
+                                        </li>
+                                        <li>
+                                            <a href="pao-conception-graphique.php">PAO & CONCEPTION GRAPHIQUE</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="accordion1">
+                                    <li> <a href="nous-recrutons.php">RECRUTEMENT</a></li>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="menu-navigation row" id="menuNavigation">
+                        <li> <a class="active" id="activeNav" href="index.php">ACCUEIL</a></li>
+                        <div class="dropdown" id="dropScroll">
+                            <li><a href="nos-services.php">SERVICE</a></li>
+                            <div class="dropdown-content" id="drop-subNav">
+                                <div class="sub-left">
+                                    <a href="centre-de-relation-client.php">CENTRE DE RELATION CLIENT</a>
+                                    <a href="#">ASSISTANAT</a>
+                                </div>
+                                <div class="sub-center">
+                                    <a href="comptabilite.php">COMPTABILITÉ</a>
+                                    <a href="bpo-processus-metiers.php">BPO & PROCESSUS DE METIER</a>
+                                </div>
+                                <div class="sub-right">
+                                    <a href="webmarketing.php">WEBMARKETING</a>
+                                    <a href="pao-conception-graphique.php">PAO & CONCEPTION GRAPHIQUE</a>
+                                </div>
+                            </div>
+                        </div>
                         <li> <a href="nous-recrutons.php">RECRUTEMENT</a></li>
                         <li>
                             <select id="custom-select">
@@ -28,21 +82,21 @@
                                 <option value="en">EN</option>
                             </select>
                         </li>
-                        <span class="mobile-close-btn"><a href="javascript:void(0);" class="icon" onclick="toggleNavFunction()">&times;</a></span>
-                </nav>
-            </div>
-            <!--Section Hero-->
-            <section id="hero-acceuil" class="hero">
-            <div class="wrapper">
-                <div class="row">
-                    <div class="col-6 hero-title hero-title-2">
-                        <h1>CENTRE RELATION CLIENT</h1>
-                    </div>
+                        <!-- <span class="mobile-close-btn"><a href="javascript:void(0);" class="icon" onclick="toggleNavFunction()">&times;</a></span> -->
+                    </nav>
                 </div>
+                <!--Section Hero-->
+                <section id="hero-acceuil" class="hero">
+                    <div class="wrapper">
+                        <div class="row">
+                            <div class="col-6 hero-title hero-title-2" data-aos="zoom-in" data-aos-duration="3000">
+                                <h1 class="exte-title">CENTRE DE RELATION CLIENT</h1>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
-            </section>
-        </div>
-    </header>
+        </header>
 
     <!--Centre de relation client body-->
     <section class="crc-bg">
@@ -167,6 +221,7 @@
     <script type="text/javascript" src="js/scripts.js"></script>
     <script type="text/javascript" src="js/contact-modal.js"></script>
     <script type="text/javascript" src="js/contact-form-validation.js"></script>
+     <script type="text/javascript" src="js/stiky-header.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>AOS.init();</script>
 </footer>

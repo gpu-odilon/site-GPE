@@ -299,6 +299,7 @@ header {
   background-size: cover;
   position: relative;
 }
+
 /*.hero-home-bg:after {
   content: "";
   background-color: rgba(0, 0, 0, 0.3);
@@ -513,11 +514,13 @@ select {
     width: 100%;
   }
 
-#myBtn{
-  background: white;
-    color: #f8d700;
-    font-size: 15px;
-}
+  #myBtn {
+    background: #f8d700;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
   .menu-navigation.responsive li {
     float: none;
     display: block;
@@ -578,24 +581,30 @@ select {
   .hero-title p {
     font-size: 14px;
   }
+
   .hero-title h1 {
     font-size: 20px;
   }
-  h3.slogan{
-    font-size: 30px!important;
+
+  h3.slogan {
+    font-size: 30px !important;
   }
-  h2{
-    font-size: 30px!important;
+
+  h2 {
+    font-size: 30px !important;
   }
-  h3{
+
+  h3 {
     font-size: 20px;
   }
+
   .competance-container {
-    -ms-transform: initial!important;
-    transform: initial!important;
+    -ms-transform: initial !important;
+    transform: initial !important;
   }
-  .wrappermobile{
-    padding: 30px 10px!important;
+
+  .wrappermobile {
+    padding: 30px 10px !important;
   }
 }
 
@@ -832,7 +841,7 @@ button.service-carousel-next {
 }
 
 .competance-container {
-/*  position: absolute;
+  /*  position: absolute;
   top: 37%;*/
   -ms-transform: translateY(100%);
   transform: translateY(100%);
@@ -853,6 +862,9 @@ button.service-carousel-next {
     align-content: center;
     margin: 0 auto;
     bottom: 0;
+  }
+  .divider-home{
+    height: auto;
   }
 
 }
@@ -1187,9 +1199,10 @@ hr {
   margin: auto;
   padding: 20px;
 }
-.content-mobile2{
-   max-width: 100%;
-   margin: 80px auto;
+
+.content-mobile2 {
+  max-width: 100%;
+  margin: 80px auto;
 }
 
 .contact-content-2 input[type=submit] {
@@ -1287,16 +1300,16 @@ a.btn-secondary:hover {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  body, html {
+
+  body,
+  html {
     height: 100%;
     overflow-x: clip;
-}
+  }
 }
 
 
-@media screen and (max-width:769px){
-
-}
+@media screen and (max-width:769px) {}
 
 /*Section Centre de relation client*/
 .crc-content-1 {
@@ -1907,17 +1920,17 @@ form p {
 
 /* The Modal (background) */
 .modal2 {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 0; /* Location of the box */
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 0;
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 /* Modal Content */
@@ -1963,7 +1976,7 @@ form p {
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -1974,12 +1987,19 @@ form p {
   display: block;
 }
 
-.dropdown-contentgpe a:hover {background-color: #ddd;}
+.dropdown-contentgpe a:hover {
+  background-color: #ddd;
+}
 
-.dropdowng:hover .dropdown-contentgpe {display: block;}
+.dropdowng:hover .dropdown-contentgpe {
+  display: block;
+}
 
-.dropdowng:hover .dropbtngpe {background-color: #3e8e41;}
-.menu-navigation2{
+.dropdowng:hover .dropbtngpe {
+  background-color: #3e8e41;
+}
+
+.menu-navigation2 {
   display: inline-grid;
 }
 
@@ -1997,8 +2017,8 @@ form p {
   transition: 0.4s;
   margin-bottom: 15px;
   list-style-type: none;
-  border-radius: 20px;
 }
+
 .accordion1 {
   background-color: #f8d700;
   color: #white;
@@ -2012,39 +2032,53 @@ form p {
   transition: 0.4s;
   margin-bottom: 15px;
   list-style-type: none;
-  border-radius: 20px;
 }
 
 
-
-.active, .accordion:hover {
-  background-color: #f8d700; 
+.active,
+.accordion:hover {
+  background-color: #f8d700;
 }
 
 .panel {
   padding: 0 18px;
-    display: none;
-    background-color: white;
-    overflow: hidden;
-    margin-top: -15px;
-    margin-bottom: 15px;
-    border-radius: 20px;
-    list-style-type: none;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  margin-top: -15px;
+  margin-bottom: 15px;
+  list-style-type: none;
 }
-.panel ul li{
+
+.panel ul li {
   list-style-type: none;
   line-height: 40px;
 }
 
-.click-mob{
-  color: white;
+.click-mob {
+  color: #000;
   text-transform: uppercase;
+  position: relative;
 }
-.accordion li a{
-  color: white;
-}
-.accordion1 li a{
-  color: white;
+.click-mob:before{
+ content: "";
+background-image: url(../images/bas-fleche.png);
+position: absolute;
+width: 24px;
+height: 24px;
+top: 12px;
+bottom: 0;
+right: 40px;
 }
 
+.accordion li a {
+  color: #000;
+}
 
+.accordion1 li a {
+  color: #000;
+}
+.accordion1 li a:hover {
+  box-shadow: 0px 5px #000;
+    color: #000;
+}

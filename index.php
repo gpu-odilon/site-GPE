@@ -42,6 +42,12 @@
                                   <li>
                                      <a href="bpo-processus-metiers.php">BPO & PROCESSUS DE METIER</a>
                                   </li>
+                                  <li>
+                                    <a href="webmarketing.php">WEBMARKETING</a>
+                                  </li>
+                                  <li>
+                                    <a href="pao-conception-graphique.php">PAO & CONCEPTION GRAPHIQUE</a>
+                                  </li>
                               </ul>
                             </div>
 
