@@ -863,8 +863,12 @@ button.service-carousel-next {
     margin: 0 auto;
     bottom: 0;
   }
-  .divider-home{
+ /* .divider-home{
     height: auto;
+  }*/
+    .competance-container{
+    -ms-transform: translateY(15%)!important;
+    transform: translateY(15%)!important;
   }
 
 }
