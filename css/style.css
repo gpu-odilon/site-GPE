@@ -1806,7 +1806,7 @@ form p {
     margin-left: 5px;
     display: none;
     z-index: 999;
-    border-radius: 15px 50px;;
+    border-radius: 15px 50px;
 }
 
 @media screen and (max-width: 600px) {
