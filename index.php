@@ -95,7 +95,7 @@
                            <span class="text-wrapper">
                               <span class="line line1"></span>
                               <span class="letters">
-                                 <h1 class="exte-title">EXTERNALISER <b>À MADAGASCAR</b></h1>
+                                 <h1 class="exte-title">EXTERNALISER <strong class="titregpe-ban">À MADAGASCAR</strong></h1>
                               </span>
                               <span class="line line2"></span>
                            </span>
@@ -142,66 +142,66 @@
                   <div class="flip-box service-card-container" data-aos="fade-up"
                      data-aos-duration="3000">
                      <div class="flip-box-inner service-card">
-                        <div class="card-img"><a href="centre-de-relation-client.php"><img src="images/icon-comp1.png" alt=""></a></div>
+                        <div class="card-img"><a href="centre-de-relation-client.php"><img class="class-icones" src="images/relations-client.jpg" alt=""></a></div>
                         <div class="card-title"><a href="centre-de-relation-client.php"><span>CENTRE DE RELATION CLIENT</span></a></div>
                         <div class="flip-box-back">
                            <div class="card-title center-caption"><a href="centre-de-relation-client.php"><span>CENTRE DE RELATION CLIENT</span></a></div>
-                           <div class="card-img"><a href="centre-de-relation-client.php"><img src="images/icon-comp1.png" alt=""></a></div>
+                           <div class="card-img"><a href="centre-de-relation-client.php"><img class="class-icones" src="images/relations-client.jpg" alt=""></a></div>
                         </div>
                      </div>
                   </div>
                   <div class="flip-box service-card-container" data-aos="fade-up"
                      data-aos-duration="3000">
                      <div class="flip-box-inner service-card">
-                        <div class="card-img"><a href="centre-de-relation-client.php"><img src="images/icon-comp1.png" alt=""></a></div>
+                        <div class="card-img"><a href="centre-de-relation-client.php"><img class="class-icones" src="images/bpo-assistanat.jpg" alt=""></a></div>
                         <div class="card-title"><a href="centre-de-relation-client.php"><span>ASSISTANAT</span></a></div>
                         <div class="flip-box-back">
                            <div class="card-title center-caption"><a href="#"><span>ASSISTANAT</span></a></div>
-                           <div class="card-img"><a href="centre-de-relation-client.php"><img src="images/icon-comp1.png" alt=""></a></div>
+                           <div class="card-img"><a href="centre-de-relation-client.php"><img class="class-icones" src="images/bpo-assistanat.jpg" alt=""></a></div>
                         </div>
                      </div>
                   </div>
                   <div class="flip-box service-card-container" data-aos="fade-up"
                      data-aos-duration="3000">
                      <div class="flip-box-inner service-card">
-                        <div class="card-img"><a href="centre-de-relation-client.php"><img src="images/icon-comp1.png" alt=""></a></div>
-                        <div class="card-title"><a href="centre-de-relation-client.php"><span>COMPTABILITÉ</span></a></div>
+                        <div class="card-img"><a href="comptabilite.php"><img class="class-icones" src="images/comptabilite.jpg" alt=""></a></div>
+                        <div class="card-title"><a href="comptabilite.php"><span>COMPTABILITÉ</span></a></div>
                         <div class="flip-box-back">
-                           <div class="card-title center-caption"><a href="#"><span>COMPTABILITÉ</span></a></div>
-                           <div class="card-img"><a href="centre-de-relation-client.php"><img src="images/icon-comp1.png" alt=""></a></div>
+                           <div class="card-title center-caption"><a href="comptabilite.php"><span>COMPTABILITÉ</span></a></div>
+                           <div class="card-img"><a href="centre-de-relation-client.php"><img class="class-icones" src="images/comptabilite.jpg" alt=""></a></div>
                         </div>
                      </div>
                   </div>
                   <div class="flip-box service-card-container" data-aos="fade-up"
                      data-aos-duration="3000">
                      <div class="flip-box-inner service-card">
-                        <div class="card-img"><a href="centre-de-relation-client.php"><img src="images/icon-comp1.png" alt=""></a></div>
-                        <div class="card-title"><a href="centre-de-relation-client.php"><span>BPO & PROCESSUS DE METIER</span></a></div>
+                        <div class="card-img"><a href="centre-de-relation-client.php"><img class="class-icones" src="images/bpo-assistanat.jpg" alt=""></a></div>
+                        <div class="card-title"><a href="bpo-processus-metiers.php"><span>BPO & PROCESSUS DE METIER</span></a></div>
                         <div class="flip-box-back">
-                           <div class="card-title center-caption"><a href="#"><span>BPO & PROCESSUS DE METIER</span></a></div>
-                           <div class="card-img"><a href="centre-de-relation-client.php"><img src="images/icon-comp1.png" alt=""></a></div>
+                           <div class="card-title center-caption"><a href="bpo-processus-metiers.php"><span>BPO & PROCESSUS DE METIER</span></a></div>
+                           <div class="card-img"><a href="centre-de-relation-client.php"><img class="class-icones" src="images/bpo-assistanat.jpg" alt=""></a></div>
                         </div>
                      </div>
                   </div>
                   <div class="flip-box service-card-container" data-aos="fade-up"
                      data-aos-duration="3000">
                      <div class="flip-box-inner service-card">
-                        <div class="card-img"><a href="centre-de-relation-client.php"><img src="images/icon-comp1.png" alt=""></a></div>
-                        <div class="card-title"><a href="centre-de-relation-client.php"><span>WEBMARKETING</span></a></div>
+                        <div class="card-img"><a href="centre-de-relation-client.php"><img class="class-icones" src="images/icon-comp1.png" alt=""></a></div>
+                        <div class="card-title"><a href="webmarketing.php"><span>WEBMARKETING</span></a></div>
                         <div class="flip-box-back">
-                           <div class="card-title center-caption"><a href="#"><span>WEBMARKETING</span></a></div>
-                           <div class="card-img"><a href="centre-de-relation-client.php"><img src="images/icon-comp1.png" alt=""></a></div>
+                           <div class="card-title center-caption"><a href="webmarketing.php"><span>WEBMARKETING</span></a></div>
+                           <div class="card-img"><a href="centre-de-relation-client.php"><img class="class-icones" src="images/icon-comp1.png" alt=""></a></div>
                         </div>
                      </div>
                   </div>
                   <div class="flip-box service-card-container" data-aos="fade-up"
                      data-aos-duration="3000">
                      <div class="flip-box-inner service-card">
-                        <div class="card-img"><a href="centre-de-relation-client.php"><img src="images/icon-comp1.png" alt=""></a></div>
-                        <div class="card-title"><a href="centre-de-relation-client.php"><span>PAO & CONCEPTION GRAPHIQUE</span></a></div>
+                        <div class="card-img"><a href="centre-de-relation-client.php"><img class="class-icones" src="images/icon-comp1.png" alt=""></a></div>
+                        <div class="card-title"><a href="pao-conception-graphique.php"><span>PAO & CONCEPTION GRAPHIQUE</span></a></div>
                         <div class="flip-box-back">
-                           <div class="card-title center-caption"><a href="#"><span>PAO & CONCEPTION GRAPHIQUE</span></a></div>
-                           <div class="card-img"><a href="centre-de-relation-client.php"><img src="images/icon-comp1.png" alt=""></a></div>
+                           <div class="card-title center-caption"><a href="pao-conception-graphique.php"><span>PAO & CONCEPTION GRAPHIQUE</span></a></div>
+                           <div class="card-img"><a href="centre-de-relation-client.php"><img class="class-icones" src="images/icon-comp1.png" alt=""></a></div>
                         </div>
                      </div>
                   </div>
@@ -213,30 +213,30 @@
             </div>
          </div>
       </div>
-      <!--Section image diviseur-->
-      <div class="divider-home">
-         <div class="wrapper wrappermobile">
-            <div class="competance-container">
-               <div class="row-competance">
-                  <div class="item-competance" data-aos="zoom-in" data-aos-duration="3000">
-                     <span>Une offre multicanale</span>
-                     <p>Assurant l’ensemble du cycle de vie du client, nous garantissons une meilleure prise des appels que ce soit des appels entrants ou sortants.</p>
-                  </div>
-                  <div class="item-competance item-competance-border" data-aos="zoom-in" data-aos-duration="3000">
-                     <span>Des experts à vos services</span>
-                     <p>Notre succès repose sur le travail collectif de nos talentueux experts, qui disposent de 3 à 10 ans d’expérience dans le domaine.</p>
-                  </div>
-                  <div class="item-competance" data-aos="zoom-in" data-aos-duration="3000">
-                     <span>Nos moyens techniques </span>
-                     <p>Nous déployons d’importants moyens techniques afin de répondre à vos besoins en matière de fiabilité du service.</p>
-                     <li>Un réseau sécurisé (firewall, antivirus),</li>
-                     <li>100 postes de travail performants, ondulés, connectés à Internet par fibre optique (100 Mo/s)</li>
-                  </div>
-               </div>
+        <!--Section image diviseur-->
+        <div class="divider-home">
+            <div class="wrapper">
+                <div class="competance-container">
+                    <div class="row-competance">
+                        <div class="item-competance" data-aos="zoom-in" data-aos-duration="1000">
+                            <span>Une offre multicanale</span>
+                            <p>Assurant l’ensemble du cycle de vie du client, nous garantissons une meilleure prise des appels que ce soit des appels entrants ou sortants.</p>
+                        </div>
+                        <div class="item-competance item-competance-border" data-aos="zoom-in" data-aos-duration="1500">
+                            <span>Des experts à vos services</span>
+                            <p>Notre succès repose sur le travail collectif de nos talentueux experts, qui disposent de 3 à 10 ans d’expérience dans le domaine.</p>
+                        </div>
+                        <div class="item-competance" data-aos="zoom-in" data-aos-duration="3000">
+                            <span>Nos moyens techniques </span>
+                            <p>Nous déployons d’importants moyens techniques afin de répondre à vos besoins en matière de fiabilité du service.</p>
+                            <li>Un réseau sécurisé (firewall, antivirus),</li>
+                            <li>100 postes de travail performants, ondulés, connectés à Internet par fibre optique (100 Mo/s)</li>
+                        </div>
+                    </div>
+                </div>
             </div>
-         </div>
-      </div>
-      <!--Section why to-->
+        </div>
+        <!--Section why to-->
       <div class="wrapper">
          <div class="why-to" data-aos="zoom-in" data-aos-duration="3000">
             <h2 class="title-rel"><span>LA RELATION CLIENT,</span> C'EST NOTRE DADA !</h2>

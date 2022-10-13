@@ -283,7 +283,9 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center top;
 }
-
+.titregpe-ban{
+  font-weight: bold;
+}
 /*Header hero background*/
 header {
   height: 75%;
@@ -299,18 +301,6 @@ header {
   background-size: cover;
   position: relative;
 }
-
-/*.hero-home-bg:after {
-  content: "";
-  background-color: rgba(0, 0, 0, 0.3);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}*/
 
 .hero-service-bg {
   background-image: url('../images/hero-img-service.png');
@@ -669,7 +659,7 @@ h3.slogan {
 
 /*Service carousel*/
 .service-carousel-container {
-  width: 900px;
+  width: 1220px;
   margin: 20px auto;
   height: 200px;
   position: relative;
@@ -771,6 +761,10 @@ button.service-carousel-next {
   justify-content: center;
   align-items: center;
 }
+.class-icones{
+  width: 147px;
+  height: 108px;
+}
 
 .service-card .card-title {
   display: flex;
@@ -780,11 +774,6 @@ button.service-carousel-next {
 
 .card-title span:hover {
   color: white;
-}
-
-.service-card .card-title {
-  flex-basis: 40px;
-  flex-grow: 0;
 }
 
 .card-title span {
@@ -809,7 +798,7 @@ button.service-carousel-next {
 }
 
 /*Section compétance*/
-/*.divider-home {
+.divider-home {
   background-image: url('../images/Home-bakcground-2.png');
   height: 110%;
   background-position: center;
@@ -817,34 +806,12 @@ button.service-carousel-next {
   background-size: cover;
   display: flex;
   align-items: flex-end;
-}*/
-.divider-home {
-  background-image: url('../images/banner2.webp');
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
   background-attachment: fixed;
 }
 
-.bk-comp:before {
-  content: "";
-  background-color: rgba(0, 0, 0, 0.7);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}
-
 .competance-container {
-  /*  position: absolute;
-  top: 37%;*/
-  -ms-transform: translateY(100%);
-  transform: translateY(100%);
+  display: flex;
+  flex: 1;
 }
 
 .row-competance {
@@ -862,13 +829,6 @@ button.service-carousel-next {
     align-content: center;
     margin: 0 auto;
     bottom: 0;
-  }
- /* .divider-home{
-    height: auto;
-  }*/
-    .competance-container{
-    -ms-transform: translateY(15%)!important;
-    transform: translateY(15%)!important;
   }
 
 }
@@ -1136,28 +1096,19 @@ hr {
 /*Footer Modal*/
 .modal {
   display: none;
-  /* Hidden by default */
   position: fixed;
-  /* Stay in place */
   z-index: 99999;
-  /* Sit on top */
   left: 0;
   top: 0;
   width: 100%;
-  /* Full width */
   height: 100%;
-  /* Full height */
   overflow: auto;
-  /* Enable scroll if needed */
   background-color: rgb(0, 0, 0);
-  /* Fallback color */
   background-color: rgba(0, 0, 0, 0.479);
-  /* Black w/ opacity */
 }
 
 .modal-content {
   margin: 5% auto;
-  /* 15% from the top and centered */
   padding: 20px;
   max-width: 100%
     /* Could be more or less, depending on screen size */
@@ -1833,7 +1784,7 @@ form p {
   text-align: left;
   position: relative;
   z-index: 999;
-  margin-bottom: 40px;
+  margin: 0 0 20px 15px;
 }
 
 
@@ -1842,26 +1793,20 @@ form p {
 }
 
 .dropdown-content {
-  background-image: url(../images/banner-sub.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  min-height: 400px;
-  width: 100%;
-  position: absolute;
-  padding: 70px 5% 40px 5%;
-}
-
-.dropdown-content:after {
-  content: "";
-  background-color: rgba(0, 0, 0, 0.3);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+    min-height: 260px;
+    position: absolute;
+    padding: 40px 0 28px;
+    margin: 0;
+    list-style-type: none;
+    position: absolute;
+    background-color: #8234cf;
+    text-align: initial;
+    left: 36%;
+    width: 340px;
+    margin-left: 5px;
+    display: none;
+    z-index: 999;
+    border-radius: 15px 50px;;
 }
 
 @media screen and (max-width: 600px) {

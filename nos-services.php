@@ -168,7 +168,7 @@
                         <div class="container">
                             <img src="images/thumb-services-6.png" alt="">
                             <div class="middle">
-                                <div class="text">PAO|Conception graphique</div>
+                                <div class="text">Webmarketing</div>
                             </div>
                         </div>
                         <span class="service-item-title">Webmarketing</span>
@@ -259,7 +259,6 @@
             <div class="wrapper footer-copyright">
                 <span>Copyright © 2022 - Tous droits réservés • Politique de Confidentialité • Mentions légales</span>
             </div>
-            <script type="text/javascript" src="js/animationHome.js"></script>
             <script type="text/javascript" src="js/scripts.js"></script>
             <script type="text/javascript" src="js/scripts-service-carousel.js"></script>
             <script type="text/javascript" src="js/contact-modal.js"></script>

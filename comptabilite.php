@@ -34,7 +34,7 @@
             <!--Section Hero-->
             <section id="hero-acceuil" class="hero">
             <div class="wrapper">
-                <div class="row">
+                <div class="row" data-aos="zoom-in" data-aos-duration="3000">
                     <div class="col-6 hero-title hero-title-2">
                         <h1>COMPTABILITÉ</h1>
                     </div>
