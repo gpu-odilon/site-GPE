@@ -57,11 +57,11 @@
                      </div>
                   </div>
                </div>
-               <nav class="menu-navigation row" id="menuNavigation">
+               <nav class="menu-navigation row" id="menuNavigation ">
                   <li> <a class="active" id="activeNav" href="index.php">ACCUEIL</a></li>
                   <div class="dropdown" id="dropScroll">
                      <li><a href="nos-services.php">SERVICE</a></li>
-                     <div class="dropdown-content" id="drop-subNav">
+                     <div class="dropdown-content" id="drop-subNav" >
                         <div class="sub-left">
                            <a href="centre-de-relation-client.php">CENTRE DE RELATION CLIENT</a>
                            <a href="#">ASSISTANAT</a>
@@ -75,7 +75,7 @@
                            <a href="pao-conception-graphique.php">PAO & CONCEPTION GRAPHIQUE</a>
                         </div>
                      </div>
-                
+                  </div>
                   <li> <a href="nous-recrutons.php">RECRUTEMENT</a></li>
                   <li>
                      <select id="custom-select">
@@ -95,7 +95,7 @@
                            <span class="text-wrapper">
                               <span class="line line1"></span>
                               <span class="letters">
-                                 <h1 class="exte-title">EXTERNALISER <strong class="titregpe-ban">À MADAGASCAR</strong></h1>
+                                 <h1 class="exte-title">EXTERNALISER <strong>À MADAGASCAR</strong></h1>
                               </span>
                               <span class="line line2"></span>
                            </span>

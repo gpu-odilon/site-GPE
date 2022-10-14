@@ -11,6 +11,7 @@ function myFunction() {
      document.getElementById("myHeader").style.padding = "5px 5% 0px 5%";
      document.getElementById("drop-subNav").style.top = "65px";
      document.getElementById("dropScroll").style.overflow = "hidden";
+
   } else {
     header.classList.remove("sticky");
     document.getElementById("myHeader").style.padding = "30px 5% 40px 5%";
@@ -41,7 +42,6 @@ window.onclick = function(event) {
 }
 
 
-
 var acc = document.getElementsByClassName("accordion");
 var i;
 
@@ -56,6 +56,13 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+
+
+
+
+
+
 
 
 
