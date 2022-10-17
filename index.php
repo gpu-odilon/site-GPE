@@ -101,7 +101,10 @@
                            </span>
                         </h1>
                         <p>Un expert en outsourcing qui fournit des solutions sur-mesure pour accompagner vos projets d’externalisation à Madagascar.</p>
-                        <a class="btn-first" href="#section_aboutus">en savoir plus</a>
+                        <div class="zoom-ctn">
+                           <a class="btn-first zoom-ctn" href="#section_aboutus">en savoir plus</a>
+                        </div>
+                        
                      </div>
                   </div>
                </div>
@@ -134,7 +137,7 @@
       <!--Section domaine de comptétance carousel-->
       <div class="wrapper">
          <div class="row">
-            <h3 class="service" data-aos="fade-up" data-aos-duration="3000">NOS DOMAINES DE <span>COMPÉTENCE</span></h3>
+            <h3 class="service" data-aos="fade-down" data-aos-duration="3000">NOS DOMAINES DE <span>COMPÉTENCE</span></h3>
          </div>
          <div class="service-carousel-container">
             <div class="service-carousel-inner">

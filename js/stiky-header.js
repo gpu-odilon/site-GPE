@@ -27,7 +27,7 @@ function myFunction() {
 }
 
 
-// Get the modal 2
+// Get the modal 2 nav for mobile
 var modal2 = document.getElementById("myModal");
 
 var btn = document.getElementById("myBtn");
@@ -48,7 +48,6 @@ window.onclick = function(event) {
   }
 }
 
-
 var acc = document.getElementsByClassName("accordion");
 var i;
 
@@ -63,6 +62,7 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
 
 
 
