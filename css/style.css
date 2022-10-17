@@ -283,16 +283,19 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center top;
 }
-.titregpe-ban{
+
+.titregpe-ban {
   font-weight: bold;
 }
+
 /*Header hero background*/
 header {
   height: 75%;
   min-height: 600px;
   background-repeat: no-repeat;
 }
-.header-page-interne{
+
+.header-page-interne {
   height: 60%;
   min-height: 280px;
   background-repeat: no-repeat;
@@ -410,8 +413,6 @@ a.active {
 a.active:hover {
   background-color: #ffffff;
 }
-
-
 
 
 /* Header style ---- Custom select*/
@@ -768,7 +769,8 @@ button.service-carousel-next {
   justify-content: center;
   align-items: center;
 }
-.class-icones{
+
+.class-icones {
   width: 147px;
   height: 108px;
 }
@@ -1748,9 +1750,9 @@ form p {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   top: 90px;
-  box-sizing:border-box;
-      transition:height 0.3s ease-in-out;
-      transition-delay: 0.9s;
+  box-sizing: border-box;
+  transition: height 0.3s ease-in-out;
+  transition-delay: 0.9s;
 }
 
 .dropdown-content a {
@@ -1771,31 +1773,32 @@ form p {
 }
 
 .dropdown-content {
-    min-height: 260px;
-    position: absolute;
-    padding: 40px 0 28px;
-    margin: 0;
-    list-style-type: none;
-    position: absolute;
-    background-color: #310681;
-    text-align: initial;
-    left: 36%;
-    width: 340px;
-    margin-left: 5px;
-    display: none;
-    z-index: 999;
-    border-radius: 15px 50px;
-    border: solid 2px #fff;
+  min-height: 260px;
+  position: absolute;
+  padding: 40px 0 28px;
+  margin: 0;
+  list-style-type: none;
+  position: absolute;
+  background-color: #310681;
+  text-align: initial;
+  left: 36%;
+  width: 340px;
+  margin-left: 5px;
+  display: none;
+  z-index: 999;
+  border-radius: 15px 50px;
+  border: solid 2px #fff;
 }
+
 .dropdown-content:before {
-    content: "";
-    position: relative;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.3);
+  content: "";
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 @media screen and (max-width: 600px) {
@@ -1998,15 +2001,16 @@ form p {
   text-transform: uppercase;
   position: relative;
 }
-.click-mob:before{
- content: "";
-background-image: url(../images/bas-fleche.png);
-position: absolute;
-width: 24px;
-height: 24px;
-top: 12px;
-bottom: 0;
-right: 40px;
+
+.click-mob:before {
+  content: "";
+  background-image: url(../images/bas-fleche.png);
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 12px;
+  bottom: 0;
+  right: 40px;
 }
 
 .accordion li a {
@@ -2016,29 +2020,35 @@ right: 40px;
 .accordion1 li a {
   color: #000;
 }
+
 .accordion1 li a:hover {
   box-shadow: 0px 5px #000;
-    color: #000;
+  color: #000;
 }
 
 /* +++  pulse hover carouseul services */
-.pulse a:hover{ 
+.pulse a:hover {
   animation: pulse 0.7s infinite;
-  animation-timing-function: linear;   
+  animation-timing-function: linear;
 }
+
 @keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.3);
-  100% { transform: scale(1); }
+  0% {
+    transform: scale(1);
   }
+
+  50% {
+    transform: scale(1.3);
+  }
+
+    100% {
+      transform: scale(1);
+    }
+  
 }
 
 /***** Zoom btn read more home banner*****/
-.zoom-ctn a:hover{
+.zoom-ctn a:hover {
   transform: scale(1.5);
   transition: all ease 300ms;
 }
-
-
-
-
