@@ -11,11 +11,15 @@ function myFunction() {
      document.getElementById("myHeader").style.padding = "5px 5% 0px 5%";
      document.getElementById("drop-subNav").style.top = "65px";
      document.getElementById("dropScroll").style.overflow = "hidden";
+     document.getElementById("myLogo").style.height = "40px";
+     document.getElementById("myLogo").style.margin = "10px 0px";
 
   } else {
     header.classList.remove("sticky");
     document.getElementById("myHeader").style.padding = "30px 5% 40px 5%";
     document.getElementById("drop-subNav").style.top = "90px";
+    document.getElementById("myLogo").style.height = "50px";
+    document.getElementById("myLogo").style.margin = "auto";
   }
 }
 

@@ -139,70 +139,48 @@
          <div class="service-carousel-container">
             <div class="service-carousel-inner">
                <div class="track">
-                  <div class="flip-box service-card-container" data-aos="fade-up"
+                  <div class="service-card-container" data-aos="fade-up"
                      data-aos-duration="3000">
-                     <div class="flip-box-inner service-card">
+                     <div class="pulse service-card">
+
                         <div class="card-img"><a href="centre-de-relation-client.php"><img class="class-icones" src="images/relations-client.jpg" alt=""></a></div>
                         <div class="card-title"><a href="centre-de-relation-client.php"><span>CENTRE DE RELATION CLIENT</span></a></div>
-                        <div class="flip-box-back">
-                           <div class="card-title center-caption"><a href="centre-de-relation-client.php"><span>CENTRE DE RELATION CLIENT</span></a></div>
-                           <div class="card-img"><a href="centre-de-relation-client.php"><img class="class-icones" src="images/relations-client.jpg" alt=""></a></div>
-                        </div>
+                        
                      </div>
                   </div>
-                  <div class="flip-box service-card-container" data-aos="fade-up"
+                  <div class="service-card-container" data-aos="fade-up"
                      data-aos-duration="3000">
-                     <div class="flip-box-inner service-card">
+                     <div class="pulse service-card">
                         <div class="card-img"><a href="centre-de-relation-client.php"><img class="class-icones" src="images/bpo-assistanat.jpg" alt=""></a></div>
                         <div class="card-title"><a href="centre-de-relation-client.php"><span>ASSISTANAT</span></a></div>
-                        <div class="flip-box-back">
-                           <div class="card-title center-caption"><a href="#"><span>ASSISTANAT</span></a></div>
-                           <div class="card-img"><a href="centre-de-relation-client.php"><img class="class-icones" src="images/bpo-assistanat.jpg" alt=""></a></div>
-                        </div>
                      </div>
                   </div>
-                  <div class="flip-box service-card-container" data-aos="fade-up"
+                  <div class="service-card-container" data-aos="fade-up"
                      data-aos-duration="3000">
-                     <div class="flip-box-inner service-card">
+                     <div class="pulse service-card">
                         <div class="card-img"><a href="comptabilite.php"><img class="class-icones" src="images/comptabilite.jpg" alt=""></a></div>
                         <div class="card-title"><a href="comptabilite.php"><span>COMPTABILITÉ</span></a></div>
-                        <div class="flip-box-back">
-                           <div class="card-title center-caption"><a href="comptabilite.php"><span>COMPTABILITÉ</span></a></div>
-                           <div class="card-img"><a href="centre-de-relation-client.php"><img class="class-icones" src="images/comptabilite.jpg" alt=""></a></div>
-                        </div>
                      </div>
                   </div>
-                  <div class="flip-box service-card-container" data-aos="fade-up"
+                  <div class="service-card-container" data-aos="fade-up"
                      data-aos-duration="3000">
-                     <div class="flip-box-inner service-card">
+                     <div class="pulse service-card">
                         <div class="card-img"><a href="centre-de-relation-client.php"><img class="class-icones" src="images/bpo-assistanat.jpg" alt=""></a></div>
                         <div class="card-title"><a href="bpo-processus-metiers.php"><span>BPO & PROCESSUS DE METIER</span></a></div>
-                        <div class="flip-box-back">
-                           <div class="card-title center-caption"><a href="bpo-processus-metiers.php"><span>BPO & PROCESSUS DE METIER</span></a></div>
-                           <div class="card-img"><a href="centre-de-relation-client.php"><img class="class-icones" src="images/bpo-assistanat.jpg" alt=""></a></div>
-                        </div>
                      </div>
                   </div>
-                  <div class="flip-box service-card-container" data-aos="fade-up"
+                  <div class="service-card-container" data-aos="fade-up"
                      data-aos-duration="3000">
-                     <div class="flip-box-inner service-card">
+                     <div class="pulse service-card">
                         <div class="card-img"><a href="centre-de-relation-client.php"><img class="class-icones" src="images/icon-comp1.png" alt=""></a></div>
                         <div class="card-title"><a href="webmarketing.php"><span>WEBMARKETING</span></a></div>
-                        <div class="flip-box-back">
-                           <div class="card-title center-caption"><a href="webmarketing.php"><span>WEBMARKETING</span></a></div>
-                           <div class="card-img"><a href="centre-de-relation-client.php"><img class="class-icones" src="images/icon-comp1.png" alt=""></a></div>
-                        </div>
                      </div>
                   </div>
-                  <div class="flip-box service-card-container" data-aos="fade-up"
+                  <div class="service-card-container" data-aos="fade-up"
                      data-aos-duration="3000">
-                     <div class="flip-box-inner service-card">
+                     <div class="pulse service-card">
                         <div class="card-img"><a href="centre-de-relation-client.php"><img class="class-icones" src="images/icon-comp1.png" alt=""></a></div>
                         <div class="card-title"><a href="pao-conception-graphique.php"><span>PAO & CONCEPTION GRAPHIQUE</span></a></div>
-                        <div class="flip-box-back">
-                           <div class="card-title center-caption"><a href="pao-conception-graphique.php"><span>PAO & CONCEPTION GRAPHIQUE</span></a></div>
-                           <div class="card-img"><a href="centre-de-relation-client.php"><img class="class-icones" src="images/icon-comp1.png" alt=""></a></div>
-                        </div>
                      </div>
                   </div>
                </div>
@@ -238,10 +216,10 @@
         </div>
         <!--Section why to-->
       <div class="wrapper">
-         <div class="why-to" data-aos="zoom-in" data-aos-duration="3000">
-            <h2 class="title-rel"><span>LA RELATION CLIENT,</span> C'EST NOTRE DADA !</h2>
-            <h3 class="why-to-h3-title" data-aos="zoom-in">3 Des bonnes raisons d'externaliser chez nous</h3>
-            <p>Madagascar a acquis une renommée internationale sur le marché de l’externalisation par la compétitivité et la compétence de sa main d’œuvre, en plus de son coût largement inférieur à celui qu’on trouve sur le marché européen. <br><br>Une main-d’œuvre qualifiée et abordable.</p>
+         <div class="why-to">
+            <h2 class="title-rel" data-aos="fade-down" data-aos-duration="3000"><span>LA RELATION CLIENT,</span> C'EST NOTRE DADA !</h2>
+            <h3 class="why-to-h3-title" data-aos="fade-right" data-aos-duration="3000">3 Des bonnes raisons d'externaliser chez nous</h3>
+            <p data-aos="fade-left" data-aos-duration="3000">Madagascar a acquis une renommée internationale sur le marché de l’externalisation par la compétitivité et la compétence de sa main d’œuvre, en plus de son coût largement inférieur à celui qu’on trouve sur le marché européen. <br><br>Une main-d’œuvre qualifiée et abordable.</p>
          </div>
       </div>
       <div class="wrapper">
