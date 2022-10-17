@@ -151,8 +151,8 @@
                   <div class="service-card-container" data-aos="fade-up"
                      data-aos-duration="3000">
                      <div class="pulse service-card">
-                        <div class="card-img"><a href="centre-de-relation-client.php"><img class="class-icones" src="images/bpo-assistanat.jpg" alt=""></a></div>
-                        <div class="card-title"><a href="centre-de-relation-client.php"><span>ASSISTANAT</span></a></div>
+                        <div class="card-img"><a href="#"><img class="class-icones" src="images/bpo-assistanat.jpg" alt=""></a></div>
+                        <div class="card-title"><a href="#"><span>ASSISTANAT</span></a></div>
                      </div>
                   </div>
                   <div class="service-card-container" data-aos="fade-up"
@@ -165,14 +165,14 @@
                   <div class="service-card-container" data-aos="fade-up"
                      data-aos-duration="3000">
                      <div class="pulse service-card">
-                        <div class="card-img"><a href="centre-de-relation-client.php"><img class="class-icones" src="images/bpo-assistanat.jpg" alt=""></a></div>
+                        <div class="card-img"><a href="bpo-processus-metiers.php"><img class="class-icones" src="images/bpo-assistanat.jpg" alt=""></a></div>
                         <div class="card-title"><a href="bpo-processus-metiers.php"><span>BPO & PROCESSUS DE METIER</span></a></div>
                      </div>
                   </div>
                   <div class="service-card-container" data-aos="fade-up"
                      data-aos-duration="3000">
                      <div class="pulse service-card">
-                        <div class="card-img"><a href="centre-de-relation-client.php"><img class="class-icones" src="images/icon-comp1.png" alt=""></a></div>
+                        <div class="card-img"><a href="webmarketing.php"><img class="class-icones" src="images/icon-comp1.png" alt=""></a></div>
                         <div class="card-title"><a href="webmarketing.php"><span>WEBMARKETING</span></a></div>
                      </div>
                   </div>

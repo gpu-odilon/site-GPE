@@ -12,7 +12,7 @@
    </head>
    <body>
       <!--Site header-->
-      <header class="myHeaderContent">
+      <header class="myHeaderContent header-page-interne">
          <div class="hero-webmarketing-bg">
             <div class="header-wrapper" id="myHeader">
                <a href="index.php">
@@ -102,9 +102,9 @@
       <section class="hire-bg">
          <div class="wrapper">
             <div class="hire-content-1">
-               <h5 data-aos="fade-up" data-aos-duration="1500">Vous êtes à la recherche d'un emploi ou d'un stage ? <br> aimez les défis ? <br>Venez-nous rejoindre ! Une équipe FUN et sympa !</h5>
+               <h5 data-aos="fade-down" data-aos-duration="3000">Vous êtes à la recherche d'un emploi ou d'un stage ? <br> aimez les défis ? <br>Venez-nous rejoindre ! Une équipe FUN et sympa !</h5>
             </div>
-            <div class="hire-content-2" data-aos="zoom-in" data-aos-duration="1500">
+            <div class="hire-content-2" data-aos="zoom-in" data-aos-duration="3000">
                <span class="hire-form-title">Candidature rapide</span>
                <p class="hire-form-desc">Pour rejoindre notre équipe, vous pouvez envoyer votre CV par mail ou nous contacter directement via ce formulaire de candidature.</p>
                <form class="hireform" id="hire-form" autocomplete="off">

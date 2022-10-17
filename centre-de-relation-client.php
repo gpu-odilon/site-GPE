@@ -11,7 +11,7 @@
 </head>
 <body>
     <!--Site header-->
-      <header>
+      <header class="header-page-interne">
             <div class="hero-service-bg">
                 <div class="header-wrapper" id="myHeader">
                     <a href="index.php">
@@ -101,7 +101,7 @@
     <!--Centre de relation client body-->
     <section class="crc-bg">
         <div class="wrapper">
-            <div class="crc-content-1" data-aos="zoom-in" data-aos-duration="3000">
+            <div class="crc-content-1" data-aos="fade-left" data-aos-duration="3000">
                 <h5>Nous disposons d’un centre de contacts de 100 positions dédiées, ouvert 24/7</h5>
                 <p>La clé de la réussite se joue dans une gestion optimale du service client. Elle est inévitable pour acquérir de nouveaux clients, les fidéliser et les sécuriser.</p>
             </div>

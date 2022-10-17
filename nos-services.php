@@ -11,7 +11,7 @@
     </head>
     <body>
         <!--Site header-->
-        <header>
+        <header class="header-page-interne">
             <div class="hero-service-bg">
                 <div class="header-wrapper" id="myHeader">
                     <a href="index.php">
@@ -100,11 +100,14 @@
         <!--Service body-->
         <section class="service-bg">
             <div class="wrapper">
-                <div class="service-body" data-aos="zoom-in" data-aos-duration="3000">
-                    <h2>CLÉ DU RÉUSSITE POUR RÉUSSIR ET SE DEMARQUER DE LA CONCURRENCE</h2>
-                    <h3>Confiez-vous à notre Externalisation à moindre coût mais efficace sur l’ensemble de vos projets.</h3>
-                    <p>Pour  chaque partenariat, une remise spéciale de 10% vous est réservée sur toutes nos prestations.</p>
+                <div class="service-body">
+                    <h2 data-aos="fade-down" data-aos-duration="3000">CLÉ DU RÉUSSITE POUR RÉUSSIR ET SE DEMARQUER DE LA CONCURRENCE</h2>
+                    <h3 data-aos="fade-right" data-aos-duration="3000">Confiez-vous à notre Externalisation à moindre coût mais efficace sur l’ensemble de vos projets.</h3>
+                    <span data-aos="fade-left" data-aos-duration="3000">
+                        <p>Pour  chaque partenariat, une remise spéciale de 10% vous est réservée sur toutes nos prestations.</p>
                     <p><em>"1% de notre chiffre d'affaires annuel sera versé à une association humanitaire"</em></p>
+                    </span>
+                    
                 </div>
             </div>
             <div class="wrapper">

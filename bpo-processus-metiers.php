@@ -6,18 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>GROUPE EXTERNALISATION</title>
 </head>
 <body>
     <!--Site header-->
-    <header>
-        <div class="hero-bpo-bg">
-            <div class="header-wrapper">
-                <img class="logo" src="images/logo.png" alt="GROUPE EXTERNALISATION"/>
-                <span class="mobile-btn"><a href="javascript:void(0);" class="icon" onclick="toggleNavFunction()">&#9776;</a></span>    
-                <nav class="menu-navigation row" id="menuNavigation">
-                        <li> <a href="index.php">ACCUEIL</a></li>
-                        <li> <a class="active" id="activeNav" href="nos-services.php">SERVICE</a></li>
+  <header class="header-page-interne">
+            <div class="hero-bpo-bg">
+                <div class="header-wrapper" id="myHeader">
+                    <a href="index.php">
+                    <img class="logo"  id="myLogo" src="images/logo.png" alt="GROUPE EXTERNALISATION"/>
+                    </a>
+                    <span class="mobile-btn"><button id="myBtn">&#9776;</button></span> 
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal2">
+                        <!-- Modal content -->
+                        <div class="modal-content-mobile">
+                            <span class="closed1">&times;</span>
+                            <div class="content-mobile2">
+                                <button class="accordion1">
+                                    <li> <a href="index.php">ACCUEIL</a></li>
+                                </button>
+                                <button class="accordion click-mob">SERVICES</button>
+                                <div class="panel">
+                                    <ul>
+                                        <li>
+                                            <a href="centre-de-relation-client.php">CENTRE DE RELATION CLIENT</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">ASSISTANAT</a>
+                                        </li>
+                                        <li>
+                                            <a href="comptabilite.php">COMPTABILITÉ</a>
+                                        </li>
+                                        <li>
+                                            <a href="bpo-processus-metiers.php">BPO & PROCESSUS DE METIER</a>
+                                        </li>
+                                        <li>
+                                            <a href="webmarketing.php">WEBMARKETING</a>
+                                        </li>
+                                        <li>
+                                            <a href="pao-conception-graphique.php">PAO & CONCEPTION GRAPHIQUE</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="accordion1">
+                                    <li> <a href="nous-recrutons.php">RECRUTEMENT</a></li>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="menu-navigation row" id="menuNavigation">
+                        <li> <a class="active" id="activeNav" href="index.php">ACCUEIL</a></li>
+                        <div class="dropdown" id="dropScroll">
+                            <li><a href="nos-services.php">SERVICE</a></li>
+                            <div class="dropdown-content" id="drop-subNav">
+                                <div class="sub-left">
+                                    <a href="centre-de-relation-client.php">CENTRE DE RELATION CLIENT</a>
+                                    <a href="#">ASSISTANAT</a>
+                                </div>
+                                <div class="sub-center">
+                                    <a href="comptabilite.php">COMPTABILITÉ</a>
+                                    <a href="bpo-processus-metiers.php">BPO & PROCESSUS DE METIER</a>
+                                </div>
+                                <div class="sub-right">
+                                    <a href="webmarketing.php">WEBMARKETING</a>
+                                    <a href="pao-conception-graphique.php">PAO & CONCEPTION GRAPHIQUE</a>
+                                </div>
+                            </div>
+                        </div>
                         <li> <a href="nous-recrutons.php">RECRUTEMENT</a></li>
                         <li>
                             <select id="custom-select">
@@ -25,25 +82,25 @@
                                 <option value="en">EN</option>
                             </select>
                         </li>
-                        <span class="mobile-close-btn"><a href="javascript:void(0);" class="icon" onclick="toggleNavFunction()">&times;</a></span>
-                </nav>
-            </div>
-            <!--Section Hero-->
-            <section id="hero-acceuil" class="hero">
-            <div class="wrapper">
-                <div class="row">
-                    <div class="col-6 hero-title hero-title-2">
-                        <h1>BPO & PROCESSUS MÉTIERS</h1>
-                    </div>
+                        <!-- <span class="mobile-close-btn"><a href="javascript:void(0);" class="icon" onclick="toggleNavFunction()">&times;</a></span> -->
+                    </nav>
                 </div>
+                <!--Section Hero-->
+                <section id="hero-acceuil" class="hero">
+                    <div class="wrapper">
+                        <div class="row">
+                            <div class="col-6 hero-title hero-title-2" data-aos="zoom-in" data-aos-duration="3000">
+                                <h1 class="exte-title">BPO & PROCESSUS DE METIER</h1>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
-            </section>
-        </div>
-    </header>
+        </header>
 
     <!--pao | conception graphique body-->
     <section>
-        <div class="wrapper">
+        <div class="wrapper" data-aos="fade-left" data-aos-duration="3000">
             <div class="crc-content-1 bpo-content-1">
                 <h5>Armées de vigilance, nous vous accompagnons pour la réussite de vos projets</h5>
                 <p>Groupe externalisation, votre professionnel de l’audiotypie, réalise également de la retranscription audio en intégrale, synthétisée ou reformulée de vos réunions, de vos prises de paroles en public, de vos comptes-rendus d’expertises, …</p>
@@ -53,10 +110,10 @@
     <section class="bpo-bg">
         <div class="wrapper">
             <div class="crc-row">
-                <div class="crc-item bpo-item-1">
+                <div class="crc-item bpo-item-1" data-aos="fade-right" data-aos-duration="3000">
                     <h2>Nous assurons nos expertises dans plusieurs domaines, notamment</h2>
                 </div>
-                <div class="crc-item bpo-item-2">
+                <div class="crc-item bpo-item-2" data-aos="fade-left" data-aos-duration="3000">
                     <li>Gestion et la reprise de contrats</li>
                     <li>Géolocalisation et indexation</li>
                     <li>Suivi logistique de bons de commandes</li>
@@ -76,15 +133,15 @@
     <section class="crc-bg">
         <div class="bpo-bg-overlay">
         <div class="wrapper">
-            <div class="crc-content-1">
+            <div class="crc-content-1" data-aos="fade-down" data-aos-duration="3000">
                 <p>Vous pouvez également pérenniser la satisfaction de vos clients grâce à une gestion optimisée dans le traitement des e-mails, ainsi qu’une réactivité personnalisée suivant vos cahiers des charges.</p>
             </div>
             <div class="crc-row">
-                <div class="crc-item webmarketing-item-1">
+                <div class="crc-item webmarketing-item-1" data-aos="fade-right" data-aos-duration="3000">
                     <h2>Notre équipe reste disponible pour traiter les e-mails entrants et sortants.</h2>
                     <p>Nous fournissons également une réponse personnalisée selon vos besoins</p>
                 </div>
-                <div class="crc-item webmarketing-item-2">
+                <div class="crc-item webmarketing-item-2" data-aos="fade-left" data-aos-duration="3000">
                     <li>S.A.V</li>
                     <li>Prise de commandes</li>
                     <li>Gestion des réclamations</li>
@@ -120,7 +177,7 @@
         </div>
 
         <div class="footer-row row">
-            <div class="col-3 col-s-6 footer-item">
+            <div class="col-3 col-s-6 footer-item" data-aos="fade-up" data-aos-duration="1500">
                 <div>
                     <div class="img-icon-footer">
                         <img src="images/Logo-tel.png" alt="">
@@ -141,7 +198,7 @@
                 </div>
                 
             </div>
-            <div class="col-3 col-s-6 footer-item">
+            <div class="col-3 col-s-6 footer-item" data-aos="fade-up" data-aos-duration="1500">
                 <div>
                     <h4>NOS SECTEURS</h4>
                 </div>
@@ -154,7 +211,7 @@
                 </div>
                 
             </div>
-            <div class="col-3 col-s-6 footer-item">
+            <div class="col-3 col-s-6 footer-item" data-aos="fade-up" data-aos-duration="1500">
                 <div>
                     <h4>NOS ENGAGEMENTS</h4>
                 </div>
@@ -167,7 +224,7 @@
                 </div>
                 
             </div>
-            <div class="col-3 col-s-6 footer-item footer-item-2">
+            <div class="col-3 col-s-6 footer-item footer-item-2" data-aos="fade-up" data-aos-duration="1500">
                 <div>
                     <img src="images/Home-logo-footer.png" alt="">
                 </div>
@@ -186,6 +243,9 @@
     <script type="text/javascript" src="js/scripts.js"></script>
     <script type="text/javascript" src="js/contact-modal.js"></script>
     <script type="text/javascript" src="js/contact-form-validation.js"></script>
+     <script type="text/javascript" src="js/stiky-header.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
 </footer>
 </body>
 </html>

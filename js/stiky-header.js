@@ -10,9 +10,11 @@ function myFunction() {
     header.classList.add("sticky");
      document.getElementById("myHeader").style.padding = "5px 5% 0px 5%";
      document.getElementById("drop-subNav").style.top = "65px";
+     document.getElementById("drop-subNav").style.left = "29%";
      document.getElementById("dropScroll").style.overflow = "hidden";
-     document.getElementById("myLogo").style.height = "40px";
+     document.getElementById("myLogo").style.height = "35px";
      document.getElementById("myLogo").style.margin = "10px 0px";
+
 
   } else {
     header.classList.remove("sticky");
@@ -20,6 +22,7 @@ function myFunction() {
     document.getElementById("drop-subNav").style.top = "90px";
     document.getElementById("myLogo").style.height = "50px";
     document.getElementById("myLogo").style.margin = "auto";
+    document.getElementById("drop-subNav").style.left = "36%";
   }
 }
 
