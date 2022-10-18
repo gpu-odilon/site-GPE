@@ -266,6 +266,7 @@
             <script type="text/javascript" src="js/scripts-service-carousel.js"></script>
             <script type="text/javascript" src="js/contact-modal.js"></script>
             <script type="text/javascript" src="js/contact-form-validation.js"></script>
+            <script type="text/javascript" src="js/stiky-header.js"></script>
             <script type="text/javascript" src="node_modules/aos/dist/aos.js"></script>
             <script>AOS.init();</script>
         </footer>

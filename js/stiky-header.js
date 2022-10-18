@@ -16,7 +16,6 @@ function myFunction() {
       document.getElementById("myLogo").style.height = "35px";
       document.getElementById("myLogo").style.margin = "10px 0px";
 
-
    } else {
       header.classList.remove("sticky");
       document.getElementById("myHeader").style.padding = "30px 5% 40px 5%";
@@ -63,3 +62,4 @@ for (i = 0; i < acc.length; i++) {
       }
    });
 }
+
