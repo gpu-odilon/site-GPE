@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="icon" type="image/x-icon" href="favicon.ico">
       <link rel="stylesheet" type="text/css" href="css/style.css">
-      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="node_modules/aos/dist/aos.css">
       <title>GROUPE EXTERNALISATION</title>
    </head>
    <body>
@@ -238,8 +238,8 @@
     <script type="text/javascript" src="js/scripts.js"></script>
     <script type="text/javascript" src="js/contact-modal.js"></script>
     <script type="text/javascript" src="js/contact-form-validation.js"></script>
-     <script type="text/javascript" src="js/stiky-header.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="js/stiky-header.js"></script>
+    <script type="text/javascript" src="node_modules/aos/dist/aos.js"></script>
     <script>AOS.init();</script>
 </footer>
   <body>

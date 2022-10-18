@@ -7,7 +7,7 @@
       <link rel="icon" type="image/x-icon" href="favicon.ico">
       <link rel="stylesheet" type="text/css" href="css/style.css">
       <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
-      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="node_modules/aos/dist/aos.css">
       <title>GROUPE EXTERNALISATION</title>
    </head>
    <body>
@@ -205,9 +205,8 @@
          <script type="text/javascript" src="js/contact-modal.js"></script>
          <script type="text/javascript" src="js/contact-form-validation.js"></script>
          <script type="text/javascript" src="js/stiky-header.js"></script>
-         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+         <script type="text/javascript" src="node_modules/aos/dist/aos.js"></script>
          <script>AOS.init();</script>
-         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
       </footer>
    </body>
 </html>

@@ -211,11 +211,11 @@
         <span>Copyright © 2022 - Tous droits réservés • Politique de Confidentialité • Mentions légales</span>
     </div>
 
-     <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
     <script type="text/javascript" src="js/contact-modal.js"></script>
     <script type="text/javascript" src="js/contact-form-validation.js"></script>
-     <script type="text/javascript" src="js/stiky-header.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="js/stiky-header.js"></script>
+    <script type="text/javascript" src="node_modules/aos/dist/aos.js"></script>
     <script>AOS.init();</script>
 </footer>
 </body>
