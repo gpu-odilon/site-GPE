@@ -12,7 +12,7 @@
    <body>
     <!--Site header-->
     <header class="header-page-interne">
-            <div class="hero-service-bg">
+            <div class="hero-webmarketing-bg">
                 <div class="header-wrapper" id="myHeader">
                     <a href="index.php">
                     <img class="logo"  id="myLogo" src="images/logo.png" alt="GROUPE EXTERNALISATION"/>

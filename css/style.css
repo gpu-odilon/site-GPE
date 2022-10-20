@@ -44,6 +44,7 @@
   src: url('../fonts/superagothic/SuperaGothic-Book.otf');
 }
 
+
 /*Define global font*/
 body {
   font-family: SuperaGothicRegular;
@@ -296,7 +297,7 @@ header {
 }
 
 .header-page-interne {
-  height: 60%;
+  height: 70%;
   min-height: 280px;
   background-repeat: no-repeat;
 }
@@ -320,7 +321,7 @@ header {
 }
 
 .hero-crc-bg {
-  background-image: url('../images/hero-img-centre-relation-client.png');
+  background-image: url('../images/banner-relation.jpg');
   height: 100%;
   background-position: 36% center;
   background-repeat: no-repeat;
@@ -338,7 +339,7 @@ header {
 }
 
 .hero-bpo-bg {
-  background-image: url('../images/hero-img-bpo.png');
+  background-image: url('../images/bpo.jpg');
   height: 100%;
   background-position: 36% center;
   background-repeat: no-repeat;
@@ -356,7 +357,7 @@ header {
 }
 
 .hero-webmarketing-bg {
-  background-image: url('../images/hero-img-webmarketing.png');
+  background-image: url('../images/WebMarketing.jpg');
   height: 100%;
   background-position: 36% center;
   background-repeat: no-repeat;
