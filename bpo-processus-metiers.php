@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="node_modules/aos/dist/aos.css">
+      <link rel="stylesheet" type="text/css" href="node_modules/aos/dist/aos.css">
     <title>GROUPE EXTERNALISATION</title>
 </head>
 <body>
@@ -240,6 +240,7 @@
         <span>Copyright © 2022 - Tous droits réservés • Politique de Confidentialité • Mentions légales</span>
     </div>
 
+    <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
     <script type="text/javascript" src="js/contact-modal.js"></script>
     <script type="text/javascript" src="js/contact-form-validation.js"></script>

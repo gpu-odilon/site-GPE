@@ -1,3 +1,13 @@
+
+(function($){
+        $(document).ready(function(){
+            $(".menu-navigation .active").parent("li").css("{'background-color', '#ffeeee'}");
+        })
+    })
+(jQuery);
+
+
+
 //*   start sticker header top
 window.onscroll = function () {
    myFunction()
@@ -62,4 +72,5 @@ for (i = 0; i < acc.length; i++) {
       }
    });
 }
+
 

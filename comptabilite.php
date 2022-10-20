@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="node_modules/aos/dist/aos.css">
     <title>GROUPE EXTERNALISATION</title>
 </head>
 <body>

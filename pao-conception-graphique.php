@@ -208,6 +208,8 @@
         <span>Copyright © 2022 - Tous droits réservés • Politique de Confidentialité • Mentions légales</span>
     </div>
 
+
+    <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
     <script type="text/javascript" src="js/contact-modal.js"></script>
     <script type="text/javascript" src="js/contact-form-validation.js"></script>
