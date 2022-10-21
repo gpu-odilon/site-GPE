@@ -7,7 +7,7 @@
       <link rel="icon" type="image/x-icon" href="favicon.ico">
       <link rel="stylesheet" type="text/css" href="css/style.css">
       <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
-      <link rel="stylesheet" type="text/css" href="node_modules/aos/dist/aos.css">
+      <link rel="stylesheet" type="text/css" href="css/aos.css">
       <title>GROUPE EXTERNALISATION</title>
    </head>
    <body>
@@ -58,7 +58,7 @@
                   </div>
                </div>
                <nav class="menu-navigation row" id="menuNavigation">
-                  <li> <a class="active" id="activeNav" href="index.php">ACCUEIL</a></li>
+                  <li> <a id="activeNav" href="index.php">ACCUEIL</a></li>
                   <div class="dropdown" id="dropScroll">
                      <li><a href="nos-services.php">SERVICE</a></li>
                      <div class="dropdown-content" id="drop-subNav">
@@ -76,7 +76,7 @@
                         </div>
                      </div>
                   </div>
-                  <li> <a href="nous-recrutons.php">RECRUTEMENT</a></li>
+                  <li> <a class="active" href="nous-recrutons.php">RECRUTEMENT</a></li>
                   <li>
                      <select id="custom-select">
                         <option value="fr" selected>FR</option>
@@ -112,7 +112,7 @@
                   <div><input type="text" name="nom" id="nom" placeholder="Nom"></div>
                   <div><input type="text" name="email" id="email" placeholder="e-mail"></div>
                   <div><input type="tel" name="tel" id="tel" placeholder="Téléphone"></div>
-                  <div><input type="text" name="poste" id="poste" placeholder="Poste libre"></div>
+                  <div><input type="text" name="poste" id="poste" placeholder="Objet"></div>
                   <div class="textarea-form"><textarea name="message" id="message" rows="10" placeholder="Parcours et lettre de motivation"></textarea></div>
                   <input type="submit" name="hire-submit" value="Postuler">
                   <span id="sendmailLoading" class="sendmail-loading">Loading...</span>
@@ -205,7 +205,7 @@
          <script type="text/javascript" src="js/contact-modal.js"></script>
          <script type="text/javascript" src="js/contact-form-validation.js"></script>
          <script type="text/javascript" src="js/stiky-header.js"></script>
-         <script type="text/javascript" src="node_modules/aos/dist/aos.js"></script>
+         <script type="text/javascript" src="js/aos.js"></script>
          <script>AOS.init();</script>
       </footer>
    </body>

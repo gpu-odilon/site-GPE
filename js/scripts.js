@@ -19,6 +19,49 @@ function closeNav() {
 }
 
 
+//*  Jquery navigation 
+(function($){
+        $(document).ready(function(){
+            $(".menu-navigation .active").parent("li").css("{'background-color', '#f7d30b'}");
+        })
+        pageActive =window.location.href;
+        if('http://groupe-externalisation/index.php'== pageActive)
+        {
+            $(".menu-navigation .active").removeClass('active');
+            $(".menu-navigation #activeNav").addClass("active");
+
+        }
+        else if(http://groupe-externalisation/nos-services.php){
+            $(".menu-navigation .active").removeClass('active');
+            $(".menu-navigation #activeNav").addClass("active");   
+        }
+        else if(http://groupe-externalisation/nous-recrutons.php){
+            $(".menu-navigation .active").removeClass('active');
+            $(".menu-navigation #activeNav").addClass("active");  
+        }
+        else if(http://groupe-externalisation/centre-de-relation-client.php){
+            $(".menu-navigation .active").removeClass('active');
+            $(".menu-navigation #activeNav").addClass("active");  
+        }
+        else if(http://groupe-externalisation/comptabilite.php){
+            $(".menu-navigation .active").removeClass('active');
+            $(".menu-navigation #activeNav").addClass("active");  
+        }
+        else if(http://groupe-externalisation/bpo-processus-metiers.php){
+            $(".menu-navigation .active").removeClass('active');
+            $(".menu-navigation #activeNav").addClass("active");  
+        }
+        else if(http://groupe-externalisation/webmarketing.php){
+            $(".menu-navigation .active").removeClass('active');
+            $(".menu-navigation #activeNav").addClass("active");  
+        }
+        else if(http://groupe-externalisation/pao-conception-graphique.php){
+            $(".menu-navigation .active").removeClass('active');
+            $(".menu-navigation #activeNav").addClass("active");  
+        }
+})(jQuery);
+
+
     
 
 

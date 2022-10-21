@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="icon" type="image/x-icon" href="favicon.ico">
       <link rel="stylesheet" type="text/css" href="css/style.css">
-      <link rel="stylesheet" type="text/css" href="node_modules/aos/dist/aos.css">
+      <link rel="stylesheet" type="text/css" href="css/aos.css">
       <title>GROUPE EXTERNALISATION</title>
    </head>
    <body>
@@ -129,9 +129,14 @@
          <div class="col-6 about-us-item-2" data-aos="fade-left"
             data-aos-duration="3000">
             <h2>Votre partenaire de confiance</h2>
-            <p>L'externalisation vous aide à gagner du temps, à économiser par rapport aux charges matérielles et salariales.</p>
+
+            <div data-aos="fade-left"
+            data-aos-duration="3000">
+               <p>L'externalisation vous aide à gagner du temps, à économiser par rapport aux charges matérielles et salariales.</p>
             <p>Notre équipe possède tous les atouts pour vous accompagner et vous garantir une prestation de haute qualité.</p>
             <p>Nous trouvons toujours une réponse à votre attente sur toutes les activités dans le plus bref délai et avec des tarifs concurrentiels.</p>
+            </div>
+            
          </div>
       </div>
       <!--Section domaine de comptétance carousel-->
@@ -274,7 +279,7 @@
                         <div><input type="text" name="cont-nom" id="contNom" placeholder="Nom"></div>
                         <div><input type="text" name="cont-email" id="contEmail" placeholder="e-mail"></div>
                         <div><input type="tel" name="cont-tel" id="contTel" placeholder="Téléphone"></div>
-                        <div><input type="text" name="cont-subject" id="contSubject" placeholder="Poste libre"></div>
+                        <div><input type="text" name="cont-subject" id="contSubject" placeholder="Objet"></div>
                         <div class="textarea-form"><textarea name="cont-message" id="contMessage" rows="10" placeholder="Votre message"></textarea></div>
                         <input type="submit" name="contact-submit" value="Envoyer">
                         <span id="sendmailLoading" class="sendmail-loading">Loading...</span>
@@ -345,13 +350,12 @@
          </div>
 
          <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
-         <script type="text/javascript" src="js/animationHome.js"></script>
          <script type="text/javascript" src="js/scripts.js"></script>
          <script type="text/javascript" src="js/scripts-service-carousel.js"></script>
          <script type="text/javascript" src="js/contact-modal.js"></script>
          <script type="text/javascript" src="js/contact-form-validation.js"></script>
          <script type="text/javascript" src="js/stiky-header.js"></script>
-         <script type="text/javascript" src="node_modules/aos/dist/aos.js"></script>
+         <script type="text/javascript" src="js/aos.js"></script>
          <script>AOS.init();</script>
          <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
          <script type="text/javascript">

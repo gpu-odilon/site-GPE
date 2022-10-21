@@ -7,7 +7,7 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/style.css">
      <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
-      <link rel="stylesheet" type="text/css" href="node_modules/aos/dist/aos.css">
+      <link rel="stylesheet" type="text/css" href="css/aos.css">
     <title>GROUPE EXTERNALISATION</title>
 </head>
 <body>
@@ -32,7 +32,7 @@
                                 <div class="panel">
                                     <ul>
                                         <li>
-                                            <a href="centre-de-relation-client.php">CENTRE DE RELATION CLIENT</a>
+                                            <a  href="centre-de-relation-client.php">CENTRE DE RELATION CLIENT</a>
                                         </li>
                                         <li>
                                             <a href="#">ASSISTANAT</a>
@@ -58,9 +58,9 @@
                         </div>
                     </div>
                     <nav class="menu-navigation row" id="menuNavigation">
-                        <li> <a class="active" id="activeNav" href="index.php">ACCUEIL</a></li>
+                        <li> <a id="activeNav" href="index.php">ACCUEIL</a></li>
                         <div class="dropdown" id="dropScroll">
-                            <li><a href="nos-services.php">SERVICE</a></li>
+                            <li><a class="active" href="nos-services.php">SERVICE</a></li>
                             <div class="dropdown-content" id="drop-subNav">
                                 <div class="sub-left">
                                     <a href="centre-de-relation-client.php">CENTRE DE RELATION CLIENT</a>
@@ -146,7 +146,7 @@
                         <div><input type="text" name="cont-nom" id="contNom" placeholder="Nom"></div>
                         <div><input type="text" name="cont-email" id="contEmail" placeholder="e-mail"></div>
                         <div><input type="tel" name="cont-tel" id="contTel" placeholder="Téléphone"></div>
-                        <div><input type="text" name="cont-subject" id="contSubject" placeholder="Poste libre"></div>
+                        <div><input type="text" name="cont-subject" id="contSubject" placeholder="Objet"></div>
                         <div class="textarea-form"><textarea name="cont-message" id="contMessage" rows="10" placeholder="Votre message"></textarea></div>
                         <input type="submit" name="contact-submit" value="Envoyer">
                         <span id="sendmailLoading" class="sendmail-loading">Loading...</span>
@@ -223,7 +223,7 @@
     <script type="text/javascript" src="js/contact-modal.js"></script>
     <script type="text/javascript" src="js/contact-form-validation.js"></script>
     <script type="text/javascript" src="js/stiky-header.js"></script>
-    <script type="text/javascript" src="node_modules/aos/dist/aos.js"></script>
+    <script type="text/javascript" src="js/aos.js"></script>
     <script>AOS.init();</script>
 </footer>
 </body>

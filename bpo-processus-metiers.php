@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-      <link rel="stylesheet" type="text/css" href="node_modules/aos/dist/aos.css">
+      <link rel="stylesheet" type="text/css" href="css/aos.css">
     <title>GROUPE EXTERNALISATION</title>
 </head>
 <body>
@@ -57,9 +57,9 @@
                         </div>
                     </div>
                     <nav class="menu-navigation row" id="menuNavigation">
-                        <li> <a class="active" id="activeNav" href="index.php">ACCUEIL</a></li>
+                        <li> <a id="activeNav" href="index.php">ACCUEIL</a></li>
                         <div class="dropdown" id="dropScroll">
-                            <li><a href="nos-services.php">SERVICE</a></li>
+                            <li><a class="active" href="nos-services.php">SERVICE</a></li>
                             <div class="dropdown-content" id="drop-subNav">
                                 <div class="sub-left">
                                     <a href="centre-de-relation-client.php">CENTRE DE RELATION CLIENT</a>
@@ -245,7 +245,7 @@
     <script type="text/javascript" src="js/contact-modal.js"></script>
     <script type="text/javascript" src="js/contact-form-validation.js"></script>
     <script type="text/javascript" src="js/stiky-header.js"></script>
-    <script type="text/javascript" src="node_modules/aos/dist/aos.js"></script>
+    <script type="text/javascript" src="js/aos.js"></script>
     <script>AOS.init();</script>
 </footer>
 </body>
