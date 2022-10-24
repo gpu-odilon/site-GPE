@@ -104,7 +104,7 @@
             <div class="hire-content-1">
                <h5 data-aos="fade-down" data-aos-duration="3000">Vous êtes à la recherche d'un emploi ou d'un stage ? <br> aimez les défis ? <br>Venez-nous rejoindre ! Une équipe FUN et sympa !</h5>
             </div>
-            <div class="hire-content-2" data-aos="zoom-in" data-aos-duration="3000">
+            <div class="hire-content-2" data-aos="zoom-in" data-aos-duration="2000">
                <span class="hire-form-title">Candidature rapide</span>
                <p class="hire-form-desc">Pour rejoindre notre équipe, vous pouvez envoyer votre CV par mail ou nous contacter directement via ce formulaire de candidature.</p>
                <form class="hireform" id="hire-form" autocomplete="off">
@@ -140,7 +140,7 @@
                </div>
             </div>
             <div class="footer-row row">
-               <div class="col-3 col-s-6 footer-item" data-aos="fade-up" data-aos-duration="3000">
+               <div class="col-3 col-s-6 footer-item" data-aos="fade-up" data-aos-duration="2000">
                   <div>
                      <div class="img-icon-footer">
                         <img src="images/Logo-tel.png" alt="">
@@ -161,7 +161,7 @@
                      <button id="btnFooter" class="btn-footer"><i><img src="images/icons-mail-gm.png" alt=""></i> <span>nous contacter</span></button>
                   </div>
                </div>
-               <div class="col-3 col-s-6 footer-item" data-aos="fade-up" data-aos-duration="3000">
+               <div class="col-3 col-s-6 footer-item" data-aos="fade-up" data-aos-duration="2000">
                   <div>
                      <h4>NOS SECTEURS</h4>
                   </div>
@@ -173,7 +173,7 @@
                      <li><a href="comptabilite.php" class="href">Externalisation comptable</a></li>
                   </div>
                </div>
-               <div class="col-3 col-s-6 footer-item" data-aos="fade-up" data-aos-duration="3000">
+               <div class="col-3 col-s-6 footer-item" data-aos="fade-up" data-aos-duration="2000">
                   <div>
                      <h4>NOS ENGAGEMENTS</h4>
                   </div>
@@ -185,9 +185,9 @@
                      <li>Ecoute active et actions</li>
                   </div>
                </div>
-               <div class="col-3 col-s-6 footer-item footer-item-2" data-aos="fade-up" data-aos-duration="3000">
+               <div class="col-3 col-s-6 footer-item footer-item-2" data-aos="fade-up" data-aos-duration="2000">
                   <div>
-                     <img src="images/Home-logo-footer.png" alt="">
+                     <img class="image-logoFoot src="images/Home-logo-footer.png" alt="">
                   </div>
                   <div>
                      <a target="_blank" href="https://www.facebook.com/groupeexternalisationmada/"><img src="images/Logo-facebook.png" alt=""><span>facebook</span></a>

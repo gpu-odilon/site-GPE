@@ -194,7 +194,7 @@
             </div>
             <div class="col-3 col-s-6 footer-item footer-item-2" data-aos="fade-up" data-aos-duration="1500">
                 <div>
-                    <img src="images/Home-logo-footer.png" alt="">
+                    <img class="image-logoFoot src="images/Home-logo-footer.png" alt="">
                 </div>
                 <div>
                     <a target="_blank" href="https://www.facebook.com/groupeexternalisationmada/"><img src="images/Logo-facebook.png" alt=""><span>facebook</span></a>

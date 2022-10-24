@@ -107,11 +107,11 @@
                 <p>Groupe Externalisation vous accompagne de A à Z dans vos projets avec des solutions clés en main. </p>
             </div>
             <div class="crc-row">
-                <div class="crc-item webmarketing-item-1" data-aos="fade-right" data-aos-duration="3000">
+                <div class="crc-item webmarketing-item-1" data-aos="fade-right" data-aos-duration="2000">
                     <h2>Création de site internet</h2>
                     <p>Un site internet est le premier outil de communication digitale pour se faire connaitre. Il vous permet d’acquérir de nouveaux clients et valoriser l’image de votre entreprise. </p>
                 </div>
-                <div class="crc-item webmarketing-item-2" data-aos="fade-left" data-aos-duration="3000">
+                <div class="crc-item webmarketing-item-2" data-aos="fade-left" data-aos-duration="2000">
                     <p>Nous vous proposons la création de sites dotés d’un design et de fonctionnalités pensés pour votre activité. Nous nous occupons de tout !</p>
                     <li>De la création du site</li>
                     <li>Des noms de domaine</li>
@@ -128,8 +128,8 @@
         <div class="webmarketing-bg-overlay">
         <div class="wrapper">
             <div class="webmarketing-content-2">
-                <h2 data-aos="fade-up" data-aos-duration="3000">Référencement payant</h2>
-                <div data-aos="fade-up" data-aos-duration="3000">
+                <h2 data-aos="fade-up" data-aos-duration="2000">Référencement payant</h2>
+                <div data-aos="fade-up" data-aos-duration="2000">
                    <p>Le référencement payant, citer aussi SEA (Search Engine Advertising) se réfère à l'apparence des publicités sur la majorité des pages de résultats des moteurs de recherche. A la conquête de nouveaux clients, il est important d'investir dans les liens commerciaux et publicitaires pour avoir un résultat plus concret et plus satisfaisant.</p>
                 <p>Pour ce faire, nous mettons à votre disposition les atouts nécessaires dans la réalisation de vos projets comme l’utilisation des outils tels que Google ADS, Facebook ADS, Instagram ADS, Waze ADS, Remarketing.</p>
                 <p>Ce sont tous des outils au système de gestion publicitaire en ligne. Ces processus permettent de diffuser des annonces ou des bannières publicitaires sur le moteur de recherche Google, sur Google Display Network, YouTube, sur Facebook et d’autres partenaires. Ces Systèmes personnalisent les contenus en fonction du comportement de navigation des internautes. Ainsi il est facile de cerner la cible pour être le plus rentable possible.</p>
@@ -137,8 +137,8 @@
                 </div>
                 
 
-                <h2 data-aos="fade-up" data-aos-duration="3000">Référencement naturel</h2>
-                <div data-aos="fade-up" data-aos-duration="3000">
+                <h2 data-aos="fade-up" data-aos-duration="2000">Référencement naturel</h2>
+                <div data-aos="fade-up" data-aos-duration="2000">
                    <p>Le référencement naturel est un processus de traitement et de collecte de donnée à partir des résultats de recherches affiché par Google. Le référencement naturel est un élément essentiel pour vos business, il vous aide lors de votre création de site web ou lors de votre publication sur blog. Quel que soit vos projets notre équipe sera prête pour vous accompagner.</p>
                 <p>L’optimisation SEO fait partie intégrante de notre métier. Cela consiste à améliorer la visibilité d’un site web  sur Google en positionnant votre site web en première page du SERP (Search Engine Result Page). Optimiser votre site en SEO est un élément essentiel pour avoir un succès inespérable auprès des internautes.</p>
                 <p>Surgir en première page sur Google est un enjeu primordial. Tout le monde ne pense pas à regarder en dernière page des recherches, ils se fixent seulement à la première liste qu’ils voient en première page.</p>
@@ -221,7 +221,7 @@
             </div>
             <div class="col-3 col-s-6 footer-item footer-item-2" data-aos="fade-up" data-aos-duration="1500">
                 <div>
-                    <img src="images/Home-logo-footer.png" alt="">
+                    <img class="image-logoFoot" src="images/Home-logo-footer.png" alt="">
                 </div>
                 <div>
                     <a target="_blank" href="https://www.facebook.com/groupeexternalisationmada/"><img src="images/Logo-facebook.png" alt=""><span>facebook</span></a>

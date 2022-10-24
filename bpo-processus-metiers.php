@@ -110,10 +110,10 @@
     <section class="bpo-bg">
         <div class="wrapper">
             <div class="crc-row">
-                <div class="crc-item bpo-item-1" data-aos="fade-right" data-aos-duration="3000">
+                <div class="crc-item bpo-item-1" data-aos="fade-right" data-aos-duration="2000">
                     <h2>Nous assurons nos expertises dans plusieurs domaines, notamment</h2>
                 </div>
-                <div class="crc-item bpo-item-2" data-aos="fade-left" data-aos-duration="3000">
+                <div class="crc-item bpo-item-2" data-aos="fade-left" data-aos-duration="2000">
                     <li>Gestion et la reprise de contrats</li>
                     <li>Géolocalisation et indexation</li>
                     <li>Suivi logistique de bons de commandes</li>
@@ -133,11 +133,11 @@
     <section class="crc-bg">
         <div class="bpo-bg-overlay">
         <div class="wrapper">
-            <div class="crc-content-1" data-aos="fade-down" data-aos-duration="3000">
+            <div class="crc-content-1" data-aos="fade-down" data-aos-duration="2000">
                 <p>Vous pouvez également pérenniser la satisfaction de vos clients grâce à une gestion optimisée dans le traitement des e-mails, ainsi qu’une réactivité personnalisée suivant vos cahiers des charges.</p>
             </div>
             <div class="crc-row">
-                <div class="crc-item webmarketing-item-1" data-aos="fade-right" data-aos-duration="3000">
+                <div class="crc-item webmarketing-item-1" data-aos="fade-right" data-aos-duration="2000">
                     <h2>Notre équipe reste disponible pour traiter les e-mails entrants et sortants.</h2>
                     <p>Nous fournissons également une réponse personnalisée selon vos besoins</p>
                 </div>
@@ -226,7 +226,7 @@
             </div>
             <div class="col-3 col-s-6 footer-item footer-item-2" data-aos="fade-up" data-aos-duration="1500">
                 <div>
-                    <img src="images/Home-logo-footer.png" alt="">
+                    <img class="image-logoFoot src="images/Home-logo-footer.png" alt="">
                 </div>
                 <div>
                     <a target="_blank" href="https://www.facebook.com/groupeexternalisationmada/"><img src="images/Logo-facebook.png" alt=""><span>facebook</span></a>

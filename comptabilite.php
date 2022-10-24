@@ -109,7 +109,7 @@
             </div>
             <div class="crc-row">
                 <div class="crc-item">
-                    <h2 data-aos="fade-right" data-aos-duration="3000">Vous pouvez nous confier vos opérations de</h2>
+                    <h2 data-aos="fade-right" data-aos-duration="2000">Vous pouvez nous confier vos opérations de</h2>
                 </div>
                 <div class="crc-item" data-aos="fade-left" data-aos-duration="1500">
                     <li>Saisie comptable</li>
@@ -198,7 +198,7 @@
             </div>
             <div class="col-3 col-s-6 footer-item footer-item-2" data-aos="fade-up" data-aos-duration="1500">
                 <div>
-                    <img src="images/Home-logo-footer.png" alt="">
+                    <img class="image-logoFoot src="images/Home-logo-footer.png" alt="">
                 </div>
                 <div>
                     <a target="_blank" href="https://www.facebook.com/groupeexternalisationmada/"><img src="images/Logo-facebook.png" alt=""><span>facebook</span></a>

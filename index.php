@@ -90,7 +90,7 @@
             <section id="hero-acceuil" class="hero">
                <div class="wrapper">
                   <div class="row">
-                     <div class="col-6 hero-title hero-title-home" data-aos="zoom-in" data-aos-duration="3000">
+                     <div class="col-6 hero-title hero-title-home" data-aos="zoom-in" data-aos-duration="1500">
                         <h1 class="ml1">
                            <span class="text-wrapper">
                               <span class="line line1"></span>
@@ -116,22 +116,22 @@
          <div class="col-6 about-us-item-1">
             <h3 class="slogan">"Externalisez efficacement, tout en <span>économisant</span>"</h3>
             <p class="soustitre-bold" data-aos="fade-right"
-               data-aos-duration="3000">
+               data-aos-duration="2000">
                Notre expertise métier nous permet de développer des solutions efficaces. <br/>
                Les coûts de gestion que vous économiserez en externalisant vous permettront de gagner en performance et d’optimiser votre rentabilité tout en maintenant la qualité.
             </p>
             <p data-aos="fade-right"
-               data-aos-duration="3000">
+               data-aos-duration="2000">
                Le procédé d’externalisation offre l’avantage de réduire les coûts liés à l’embauche d’un salarié spécialisé et les coûts de l’exploitation, aussi bien technologique qu’humain. <br/>
                De l’étude tarifaire à la phase test au démarrage de la production, jusqu'à la réussite de chaque projet, nous restons à votre écoute pour améliorer et pour vous accompagner quotidiennement. Groupe Externalisation sera votre partenaire de confiance, à vos côtés.
             </p>
          </div>
          <div class="col-6 about-us-item-2" data-aos="fade-left"
-            data-aos-duration="3000">
+            data-aos-duration="2000">
             <h2>Votre partenaire de confiance</h2>
 
             <div data-aos="fade-left"
-            data-aos-duration="3000">
+            data-aos-duration="2000">
                <p>L'externalisation vous aide à gagner du temps, à économiser par rapport aux charges matérielles et salariales.</p>
             <p>Notre équipe possède tous les atouts pour vous accompagner et vous garantir une prestation de haute qualité.</p>
             <p>Nous trouvons toujours une réponse à votre attente sur toutes les activités dans le plus bref délai et avec des tarifs concurrentiels.</p>
@@ -144,6 +144,7 @@
          <div class="row">
             <h3 class="service" data-aos="fade-down" data-aos-duration="3000">NOS DOMAINES DE <span>COMPÉTENCE</span></h3>
          </div>
+
          <div class="service-carousel-container">
             <div class="service-carousel-inner">
                <div class="track">
@@ -204,7 +205,7 @@
             <div class="wrapper">
                 <div class="competance-container">
                     <div class="row-competance">
-                        <div class="item-competance" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="item-competance" data-aos="zoom-in" data-aos-duration="1500">
                             <span>Une offre multicanale</span>
                             <p>Assurant l’ensemble du cycle de vie du client, nous garantissons une meilleure prise des appels que ce soit des appels entrants ou sortants.</p>
                         </div>
@@ -212,7 +213,7 @@
                             <span>Des experts à vos services</span>
                             <p>Notre succès repose sur le travail collectif de nos talentueux experts, qui disposent de 3 à 10 ans d’expérience dans le domaine.</p>
                         </div>
-                        <div class="item-competance" data-aos="zoom-in" data-aos-duration="3000">
+                        <div class="item-competance" data-aos="zoom-in" data-aos-duration="1500">
                             <span>Nos moyens techniques </span>
                             <p>Nous déployons d’importants moyens techniques afin de répondre à vos besoins en matière de fiabilité du service.</p>
                             <li>Un réseau sécurisé (firewall, antivirus),</li>
@@ -225,13 +226,13 @@
         <!--Section why to-->
       <div class="wrapper">
          <div class="why-to">
-            <h2 class="title-rel" data-aos="fade-down" data-aos-duration="3000"><span>LA RELATION CLIENT,</span> C'EST NOTRE DADA !</h2>
-            <h3 class="why-to-h3-title" data-aos="fade-right" data-aos-duration="3000">3 Des bonnes raisons d'externaliser chez nous</h3>
-            <p data-aos="fade-left" data-aos-duration="3000">Madagascar a acquis une renommée internationale sur le marché de l’externalisation par la compétitivité et la compétence de sa main d’œuvre, en plus de son coût largement inférieur à celui qu’on trouve sur le marché européen. <br><br>Une main-d’œuvre qualifiée et abordable.</p>
+            <h2 class="title-rel" data-aos="fade-down" data-aos-duration="1500"><span>LA RELATION CLIENT,</span> C'EST NOTRE DADA !</h2>
+            <h3 class="why-to-h3-title" data-aos="fade-right" data-aos-duration="1500">3 Des bonnes raisons d'externaliser chez nous</h3>
+            <p data-aos="fade-left" data-aos-duration="1500">Madagascar a acquis une renommée internationale sur le marché de l’externalisation par la compétitivité et la compétence de sa main d’œuvre, en plus de son coût largement inférieur à celui qu’on trouve sur le marché européen. <br><br>Une main-d’œuvre qualifiée et abordable.</p>
          </div>
       </div>
       <div class="wrapper">
-         <div class="why-to-row" data-aos="zoom-in" data-aos-duration="3000">
+         <div class="why-to-row" data-aos="zoom-in" data-aos-duration="1500">
             <div class="why-to-item item1-hov">
                <div>
                   <div class="separator">
@@ -335,7 +336,7 @@
                </div>
                <div class="col-3 col-s-6 footer-item footer-item-2" data-aos="fade-up" data-aos-duration="3000">
                   <div>
-                     <img src="images/Home-logo-footer.png" alt="">
+                     <img class="image-logoFoot" src="images/Home-logo-footer.png" alt="">
                   </div>
                   <div>
                      <a target="_blank" href="https://www.facebook.com/groupeexternalisationmada/"><img src="images/Logo-facebook.png" alt=""><span>facebook</span></a>
@@ -359,6 +360,7 @@
          <script>AOS.init();</script>
          <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
          <script type="text/javascript">
+            
             var textWrapper = document.querySelector('.ml1 .letters');
             textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
             

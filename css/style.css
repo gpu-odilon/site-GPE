@@ -519,6 +519,7 @@ select {
     color: #fff;
     font-size: 20px;
     cursor: pointer;
+    border: none;
   }
 
   .menu-navigation.responsive li {
@@ -1565,72 +1566,13 @@ form p {
 
 
 /*   ++++++++++++   style hover news animations    +++++++++++++   */
-.service {
-  --b: 0.1em;
-  /* the thickness of the line */
-  --c: #f8d700;
-  /* the color */
-
-  color: #310681;
-  padding-block: var(--b);
-  background:
-    linear-gradient(var(--c) 50%, #000 0) 0% calc(100% - var(--_p, 0%))/100% 200%,
-    linear-gradient(var(--c) 0 0) 0% var(--_p, 0%)/var(--_p, 0%) var(--b) no-repeat;
-  -webkit-background-clip: text, padding-box;
-  background-clip: text, padding-box;
-  transition: .3s var(--_s, 0s) linear, background-size .3s calc(.3s - var(--_s, 0s));
-}
-
-.service:hover {
-  --_p: 100%;
-  --_s: .3s;
-}
-
-/*   ++++++++++++  end  style hover news animations    +++++++++++++   */
-
-.title-rel {
-  --b: 0.1em;
-  /* the thickness of the line */
-  --c: #f8d700;
-  /* the color */
-
-  color: #310681;
-  padding-block: var(--b);
-  background:
-    linear-gradient(var(--c) 50%, #000 0) 0% calc(100% - var(--_p, 0%))/100% 200%,
-    linear-gradient(var(--c) 0 0) 0% var(--_p, 0%)/var(--_p, 0%) var(--b) no-repeat;
-  -webkit-background-clip: text, padding-box;
-  background-clip: text, padding-box;
-  transition: .3s var(--_s, 0s) linear, background-size .3s calc(.3s - var(--_s, 0s));
-}
 
 .title-rel:hover {
   --_p: 100%;
   --_s: .3s;
 }
 
-/*   ++++++++++++  style hover titre relation section    +++++++++++++   */
 
-.exte-title {
-  --b: 0.1em;
-  /* the thickness of the line */
-  --c: #f8d700;
-  /* the color */
-
-  color: #fff;
-  padding-block: var(--b);
-  background:
-    linear-gradient(var(--c) 50%, #000 0) 0% calc(100% - var(--_p, 0%))/100% 200%,
-    linear-gradient(var(--c) 0 0) 0% var(--_p, 0%)/var(--_p, 0%) var(--b) no-repeat;
-  -webkit-background-clip: text, padding-box;
-  background-clip: text, padding-box;
-  transition: .3s var(--_s, 0s) linear, background-size .3s calc(.3s - var(--_s, 0s));
-}
-
-.exte-title:hover {
-  --_p: 100%;
-  --_s: .3s;
-}
 
 /*   ++++++++++++  end  style hover titre debut section    +++++++++++++   */
 
@@ -1766,9 +1708,7 @@ form p {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   top: 90px;
-  box-sizing: border-box;
-  transition: height 0.3s ease-in-out;
-  transition-delay: 0.9s;
+
 }
 
 .dropdown-content a {
@@ -1785,7 +1725,7 @@ form p {
 
 
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: block; 
 }
 
 .dropdown-content {
@@ -1804,6 +1744,8 @@ form p {
   z-index: 999;
   border-radius: 15px 50px;
   border: solid 2px #fff;
+  box-sizing: border-box; 
+ animation: growDown 300ms ease-in-out 
 }
 
 .dropdown-content:before {
@@ -2044,7 +1986,7 @@ form p {
 
 /* +++  pulse hover carouseul services */
 .pulse a:hover {
-  animation: pulse 0.7s infinite;
+  animation: pulse 0.5s infinite;
   animation-timing-function: linear;
 }
 
@@ -2062,6 +2004,29 @@ form p {
     }
   
 }
+
+
+.service {
+  animation-duration: 5s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+        0% {
+              transform: scale(1, 1);
+              border-bottom: solid 3px #f7d30b; 
+            }
+      50% {
+          transform: scale(1.5, 1.5);          
+      }
+      100% {
+        transform: scale(1, 1);
+      }
+}
+
+
 
 /***** Zoom btn read more home banner*****/
 .zoom-ctn a:hover {

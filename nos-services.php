@@ -103,8 +103,8 @@
             <div class="wrapper">
                 <div class="service-body">
                     <h2 data-aos="fade-down" data-aos-duration="3000">CLÉ DU RÉUSSITE POUR RÉUSSIR ET SE DEMARQUER DE LA CONCURRENCE</h2>
-                    <h3 data-aos="fade-right" data-aos-duration="3000">Confiez-vous à notre Externalisation à moindre coût mais efficace sur l’ensemble de vos projets.</h3>
-                    <span data-aos="fade-left" data-aos-duration="3000">
+                    <h3 data-aos="fade-right" data-aos-duration="2000">Confiez-vous à notre Externalisation à moindre coût mais efficace sur l’ensemble de vos projets.</h3>
+                    <span data-aos="fade-left" data-aos-duration="2000">
                         <p>Pour  chaque partenariat, une remise spéciale de 10% vous est réservée sur toutes nos prestations.</p>
                     <p><em>"1% de notre chiffre d'affaires annuel sera versé à une association humanitaire"</em></p>
                     </span>
@@ -113,7 +113,7 @@
             </div>
             <div class="wrapper">
                 <div class="service-row">
-                    <div class="service-item" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="service-item" data-aos="fade-up" data-aos-duration="2000">
                         <div class="container">
                             <img src="images/thumb-services-1.png" alt="" class="image" width="100%">
                             <div class="middle">
@@ -124,7 +124,7 @@
                         <p>Nous vous accompagnons aussi bien dans vos missions de développement marketing et commercial (prise de rendez-vous, télévente, détection de projets…), que dans la gestion de votre relation clientèle (support technique ou commercial, standard téléphonique, suivi de commandes).</p>
                         <a class="btn-secondary" href="centre-de-relation-client.php">en savoir plus</a>
                     </div>
-                    <div class="service-item service-item-pad" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="service-item service-item-pad" data-aos="fade-up" data-aos-duration="2000">
                         <div class="container">
                             <img src="images/thumb-services-2.png" alt="" class="image">
                             <div class="middle">
@@ -135,7 +135,7 @@
                         <p>Nous vous accompagnons aussi bien dans vos missions de développement marketing et commercial (prise de rendez-vous, télévente, détection de projets…), que dans la gestion de votre relation clientèle (support technique ou commercial, standard téléphonique, suivi de commandes).</p>
                         <a class="btn-secondary" href="#">en savoir plus</a>
                     </div>
-                    <div class="service-item" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="service-item" data-aos="fade-up" data-aos-duration="2000">
                         <div class="container">
                             <img src="images/thumb-services-3.png" alt="" class="image">
                             <div class="middle">
@@ -146,7 +146,7 @@
                         <p>Nous vous accompagnons aussi bien dans vos missions de développement marketing et commercial (prise de rendez-vous, télévente, détection de projets…), que dans la gestion de votre relation clientèle (support technique ou commercial, standard téléphonique, suivi de commandes).</p>
                         <a class="btn-secondary" href="comptabilite.php">en savoir plus</a>
                     </div>
-                    <div class="service-item" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="service-item" data-aos="fade-up" data-aos-duration="2000">
                         <div class="container">
                             <img src="images/thumb-services-4.png" alt="">
                             <div class="middle">
@@ -157,7 +157,7 @@
                         <p>Nous vous accompagnons aussi bien dans vos missions de développement marketing et commercial (prise de rendez-vous, télévente, détection de projets…), que dans la gestion de votre relation clientèle (support technique ou commercial, standard téléphonique, suivi de commandes).</p>
                         <a class="btn-secondary" href="bpo-processus-metiers.php">en savoir plus</a>
                     </div>
-                    <div class="service-item service-item-pad" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="service-item service-item-pad" data-aos="fade-up" data-aos-duration="2000">
                         <div class="container">
                             <img src="images/thumb-services-5.png" alt="">
                             <div class="middle">
@@ -168,7 +168,7 @@
                         <p>Nous vous accompagnons aussi bien dans vos missions de développement marketing et commercial (prise de rendez-vous, télévente, détection de projets…), que dans la gestion de votre relation clientèle (support technique ou commercial, standard téléphonique, suivi de commandes).</p>
                         <a class="btn-secondary" href="pao-conception-graphique.php">en savoir plus</a>
                     </div>
-                    <div class="service-item" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="service-item" data-aos="fade-up" data-aos-duration="2000">
                         <div class="container">
                             <img src="images/thumb-services-6.png" alt="">
                             <div class="middle">
@@ -250,7 +250,7 @@
                     </div>
                     <div class="col-3 col-s-6 footer-item footer-item-2" data-aos="fade-up" data-aos-duration="3000">
                         <div>
-                            <img src="images/Home-logo-footer.png" alt="">
+                            <img class="image-logoFoot src="images/Home-logo-footer.png" alt="">
                         </div>
                         <div>
                             <a target="_blank" href="https://www.facebook.com/groupeexternalisationmada/"><img src="images/Logo-facebook.png" alt=""><span>facebook</span></a>
